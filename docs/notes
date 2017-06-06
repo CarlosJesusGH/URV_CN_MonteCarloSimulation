@@ -1,0 +1,27 @@
+Dinamica de epidemias en metapoblaciones basada en redes complejas
+http://www.bdigital.unal.edu.co/8661/1/835038.2010.pdf
+
+Check CUDA language, it could be useful to efficiency in parallel:
+https://en.wikipedia.org/wiki/CUDA
+
+Try to make the main part of the software in Python and only include the Monte Carlo section as a library in C++.
+  -Find out how to include a C++ library into a Python program.
+
+Compile C++ app:
+c++ -O3 -shared -std=c++11 -I <path-to-pybind11>/include `python-config --cflags --ldflags` example.cpp -o example.so
+---
+c++ -O3 -shared -std=c++11 -I /home/cj/Downloads/pybind11-master/include `python-config --cflags --ldflags` example.cpp -o example.so
+
+
+
+Pybind error:
+Add the installation prefix of "pybind11" to CMAKE_PREFIX_PATH or set
+  "pybind11_DIR" to a directory containing one of the above files.  If
+  "pybind11" provides a separate development package or SDK, be sure it has
+  been installed.
+
+Message after pybind11 "python setup.py install"
+Installed /home/cj/Coding/miniconda3/envs/venv_conda/lib/python3.6/site-packages/pybind11-2.2.dev0-py3.6.egg
+Processing dependencies for pybind11==2.2.dev0
+Finished processing dependencies for pybind11==2.2.dev0
+
