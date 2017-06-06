@@ -11,7 +11,15 @@ Compile C++ app:
 c++ -O3 -shared -std=c++11 -I <path-to-pybind11>/include `python-config --cflags --ldflags` example.cpp -o example.so
 ---
 c++ -O3 -shared -std=c++11 -I /home/cj/Downloads/pybind11-master/include `python-config --cflags --ldflags` example.cpp -o example.so
-
+---
+  it was returning this error message:
+    /usr/bin/ld: /tmp/cccwbWZf.o: relocation R_X86_64_32 against `.rodata.str1.8' can not be used when making a shared object; recompile with -fPIC
+    FROM: https://stackoverflow.com/questions/19364969/compilation-fails-with-relocation-r-x86-64-32-against-rodata-str1-8-can-not
+  then I tried to recompile using the flag suggested -fPIC and it worked:
+    c++ -O3 -shared -std=c++11 -I /home/cj/Downloads/pybind11-master/include `python-config --cflags --ldflags` example.cpp -o example.so -fPIC
+---
+  I also copied the 'include' directory from pybind11 to my current c++ directory and tried again:
+    c++ -O3 -shared -std=c++11 -I ./include `python-config --cflags --ldflags` example.cpp -o example.so -fPIC
 
 
 Pybind error:

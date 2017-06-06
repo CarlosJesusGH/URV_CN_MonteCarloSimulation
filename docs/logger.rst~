@@ -1,0 +1,21 @@
+Main decisions
+==============
+
+  1. First let's try creating the app only using python
+  2. Check the speed and if it's too slow try next steps
+  3. Search about methods to integrate Python and C++
+
+    * Pybind11: It was the first I tried because read good references about it and also seem to be the easiest to use. Unfortunately I could only use it with Python 2.7, and couldn't integrate with Python 3.6 (version used to develop the first part. Then, as Pybind11 is based on Boost.Python y will try this now and check if can make it work properly Pybind11__.    
+
+    __ https://github.com/pybind/pybind11
+
+    * Boost.Python: `link to Boost.Python`__.
+
+    __ Boost.Python: http://www.boost.org/doc/libs/1_64_0/libs/python/doc/html/index.html
+
+    
+    
+Pybind11
+--------
+
+  Some of the commands executed were:
