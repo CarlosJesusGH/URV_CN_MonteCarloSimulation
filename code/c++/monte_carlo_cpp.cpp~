@@ -8,7 +8,7 @@
 // regular C++ code
 // ----------------
 
-Eigen::MatrixXd inv(Eigen::MatrixXd xs) {
+Eigen::MatrixXd inv(Eigen::MatrixXd xs) {        
     return xs.inverse();
 }
 
@@ -16,8 +16,21 @@ double det(Eigen::MatrixXd xs) {
     return xs.determinant();
 }
 
-Eigen::MatrixXd simulate(Eigen::MatrixXd adj_mat) {
-    return adj_mat.inverse();
+Eigen::MatrixXd simulate(Eigen::MatrixXd xs) {
+    count_ones = 0;
+    count_zeros = 0;
+    for (size_t i = 0, nRows = xs.rows(), nCols = xs.cols(); i < nRows; ++i){
+        for (size_t j = 0; j < nCols; ++j){
+
+            
+            if (xs(i,j) == 1)
+                count_ones++;
+            else
+                count_zeros++;            
+        }
+    }
+    printf("count_ones=%d, count_zeros=%d \n", count_ones, count_zeros);
+    return xs;
 }
 
 // ----------------
@@ -26,8 +39,8 @@ Eigen::MatrixXd simulate(Eigen::MatrixXd adj_mat) {
 
 namespace py = pybind11;
 
-PYBIND11_PLUGIN(example) {
-    pybind11::module m("example", "simple example module");
+PYBIND11_PLUGIN(monte_carlo_cpp) {
+    pybind11::module m("monte_carlo_cpp", "monte_carlo module");
     m.def("inv", &inv);
     m.def("det", &det);
     m.def("simulate", &simulate);

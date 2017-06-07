@@ -77,7 +77,9 @@ class MonteCarloSim:
 
         adj_mat = np.array(igraph.Graph.get_adjacency(self.g).data)
 
-        ret = monte_carlo_cpp.simulate(adj_mat)
+        # print(adj_mat)
+
+        ret = monte_carlo_cpp.simulate(adj_mat, n_rep, p_0, t_max, t_trans, n_samples_B, u)
 
         print("monte carlo cpp = %s" % ret)
         return ret
