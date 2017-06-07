@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ea19945-1ddc-43c1-86f1-997c76f93526" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/nets/erdos_renyi_[n=50,p=0.1].net" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/c++/example.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/c++/igraph_monte-carlo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/c++/igraph_monte-carlo.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/nets/airports_UW.net" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/old_files/python_c++_integration/2nd_try_Pybind11/example.so" afterPath="$PROJECT_DIR$/old_files/python_c++_integration/2nd_try_Pybind11/example.so" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/python/main.py" afterPath="$PROJECT_DIR$/code/python/main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/plots/erdos_renyi_[n=50,p=0.1]_ini.png" afterPath="$PROJECT_DIR$/output/plots/erdos_renyi_[n=50,p=0.1]_ini.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/python/monte_carlo.py" afterPath="$PROJECT_DIR$/code/python/monte_carlo.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/readme.md" afterPath="$PROJECT_DIR$/code/readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/logger.rst" afterPath="$PROJECT_DIR$/docs/logger.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/notes" afterPath="$PROJECT_DIR$/docs/notes" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,8 +33,8 @@
       <file leaf-file-name="monte_carlo.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/code/python/monte_carlo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="81" column="46" lean-forward="false" selection-start-line="81" selection-start-column="46" selection-end-line="81" selection-end-column="46" />
+            <state relative-caret-position="288">
+              <caret line="79" column="47" lean-forward="true" selection-start-line="79" selection-start-column="47" selection-end-line="79" selection-end-column="47" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
                 <element signature="e#522#818#0" expanded="false" />
@@ -57,8 +47,18 @@
       <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Coding/miniconda3/envs/venv_conda/lib/python3.6/site-packages/igraph/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="576" column="18" lean-forward="false" selection-start-line="576" selection-start-column="18" selection-end-line="576" selection-end-column="18" />
+            <state relative-caret-position="-510">
+              <caret line="513" column="8" lean-forward="false" selection-start-line="513" selection-start-column="8" selection-end-line="513" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="datatypes.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Coding/miniconda3/envs/venv_conda/lib/python3.6/site-packages/igraph/datatypes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="37" column="8" lean-forward="false" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -457,7 +457,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/code/python/monte_carlo.py</url>
-          <line>81</line>
+          <line>79</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
@@ -466,16 +466,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/code/python/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharmCE2017.1/system/python_stubs/1158477114/igraph/_igraph.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48550">
@@ -879,14 +869,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Coding/miniconda3/envs/venv_conda/lib/python3.6/site-packages/igraph/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="576" column="18" lean-forward="false" selection-start-line="576" selection-start-column="18" selection-end-line="576" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code/python/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
@@ -897,10 +879,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Coding/miniconda3/envs/venv_conda/lib/python3.6/site-packages/igraph/datatypes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="37" column="8" lean-forward="false" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Coding/miniconda3/envs/venv_conda/lib/python3.6/site-packages/igraph/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-510">
+          <caret line="513" column="8" lean-forward="false" selection-start-line="513" selection-start-column="8" selection-end-line="513" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/code/python/monte_carlo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="81" column="46" lean-forward="false" selection-start-line="81" selection-start-column="46" selection-end-line="81" selection-end-column="46" />
+        <state relative-caret-position="288">
+          <caret line="79" column="47" lean-forward="true" selection-start-line="79" selection-start-column="47" selection-end-line="79" selection-end-column="47" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
             <element signature="e#522#818#0" expanded="false" />

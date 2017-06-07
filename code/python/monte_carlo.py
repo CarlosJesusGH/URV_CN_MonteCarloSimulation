@@ -75,9 +75,7 @@ class MonteCarloSim:
         sys.path.append("../c++/")
         import monte_carlo_cpp
 
-        adj_mat = igraph.Graph.get_adjacency(self.g)
-        print(adj_mat)
-
+        adj_mat = np.array(igraph.Graph.get_adjacency(self.g).data)
 
         ret = monte_carlo_cpp.simulate(adj_mat)
 
