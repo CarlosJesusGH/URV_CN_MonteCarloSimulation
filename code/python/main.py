@@ -52,8 +52,8 @@ for subdir, dirs, files in os.walk(nets_dir):
             print("n_vertices = %d, n_edges = %d" % (len(g.vs), len(g.es)))
             mc_sim = MonteCarloSim(g, net_name)
             # mc_sim.run_simulation(n_rep=100, p_0=0.2, t_max=1000, t_trans=900, n_samples_B=100, u=1)  # sample sim
-            mc_sim.run_simulation(n_rep=10, p_0=0.2, t_max=1000, t_trans=900, n_samples_B=51, u=1)
-
+            # mc_sim.run_simulation(n_rep=10, p_0=0.2, t_max=1000, t_trans=900, n_samples_B=51, u=1)
+            mc_sim.run_simulation_cpp(n_rep=10, p_0=0.2, t_max=1000, t_trans=900, n_samples_B=51, u=1)
 
 
 

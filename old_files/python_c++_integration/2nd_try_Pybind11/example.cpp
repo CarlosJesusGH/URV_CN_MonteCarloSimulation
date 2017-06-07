@@ -1,14 +1,29 @@
 #include <pybind11/pybind11.h>
+#include <pybind11/eigen.h>
 
-namespace py = pybind11;
-using namespace pybind11::literals;
+#include <Eigen/LU>
 
-int add(int i, int j) {
-    return i + j;
+// ----------------
+// regular C++ code
+// ----------------
+
+Eigen::MatrixXd inv(Eigen::MatrixXd xs) {
+    return xs.inverse();
 }
 
-PYBIND11_MODULE(example, m) {
-    m.doc() = "pybind11 example plugin"; // optional module docstring
+double det(Eigen::MatrixXd xs) {
+    return xs.determinant();
+}
 
-    m.def("add", &add, "A function which adds two numbers");
+// ----------------
+// Python interface
+// ----------------
+
+namespace py = pybind11;
+
+PYBIND11_PLUGIN(example) {
+    pybind11::module m("example", "simple example module");
+    m.def("inv", &inv);
+    m.def("det", &det);
+    return m.ptr();
 }

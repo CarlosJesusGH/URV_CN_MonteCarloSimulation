@@ -68,3 +68,18 @@ class MonteCarloSim:
             # Update infected percentage history
             num_infected_by_step.append(len(self.infected_set) / self.n_vertices)
         return num_infected_by_step
+
+    def run_simulation_cpp(self, n_rep, p_0, t_max, t_trans, n_samples_B, u):
+        # Import c++ directory and monte_carlo_cpp module
+        import sys
+        sys.path.append("../c++/")
+        import monte_carlo_cpp
+
+        adj_mat = igraph.Graph.get_adjacency(self.g)
+        print(adj_mat)
+
+
+        ret = monte_carlo_cpp.simulate(adj_mat)
+
+        print("monte carlo cpp = %s" % ret)
+        return ret

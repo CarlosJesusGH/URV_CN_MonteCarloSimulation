@@ -18,6 +18,6 @@ Main decisions
 Pybind11
 --------
 
-  Some of the commands executed were:
+  Some of the commands executed:
   
     
