@@ -38,10 +38,11 @@ class MonteCarloSim:
                 pt_before_avg.append(avg_stationary)
             pt_after_avg = sum(pt_before_avg)/len(pt_before_avg)
             self.p_t.append(pt_after_avg)
-            print("Done with B=%f." % B)
+            # print("Done with B=%f." % B)
         utils_plots.plot_data(Bs, self.p_t, title=self.net_name + "\nSIS(" + r"$N_{rep}$= " + str(n_rep) +
                                                   r", $T_{max}$= " + str(t_max) +
                                                   r", $T_{trans}$= " + str(t_trans) +
+                                                  r", $N_{\beta}$= " + str(n_samples_B) +
                                                   r", $\mu$= " + str(u) +
                                                   r", $\rho_0$= " + str(p_0) + ")"
                               , xlabel=r'$\beta$', ylabel=r'$\rho$')
@@ -75,11 +76,17 @@ class MonteCarloSim:
         sys.path.append("../c++/")
         import monte_carlo_cpp
 
+        # Load network and create adjacency matrix
         adj_mat = np.array(igraph.Graph.get_adjacency(self.g).data)
-
-        # print(adj_mat)
-
-        ret = monte_carlo_cpp.simulate(adj_mat, n_rep, p_0, t_max, t_trans, n_samples_B, u)
-
-        print("monte carlo cpp = %s" % ret)
-        return ret
+        # Simulate the monte-carlo
+        p_t = monte_carlo_cpp.simulate(adj_mat, n_rep, p_0, t_max, t_trans, n_samples_B, u)
+        print("monte carlo cpp = %s" % p_t)
+        # Plot
+        Bs = np.linspace(0, 1, num=n_samples_B, retstep=True)[0]
+        utils_plots.plot_data(Bs, p_t, title=self.net_name + "\nSIS(" + r"$N_{rep}$= " + str(n_rep) +
+                                                  r", $T_{max}$= " + str(t_max) +
+                                                  r", $T_{trans}$= " + str(t_trans) +
+                                                  r", $N_{\beta}$= " + str(n_samples_B) +
+                                                  r", $\mu$= " + str(u) +
+                                                  r", $\rho_0$= " + str(p_0) + ")"
+                              , xlabel=r'$\beta$', ylabel=r'$\rho$')
