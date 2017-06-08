@@ -1,0 +1,18 @@
+===========================
+../../output/nets/airports_UW.net
+n_vertices = 3618, n_edges = 14142
+Done with B=0.000000. 
+Done with B=0.100000. 
+Done with B=0.200000. 
+Done with B=0.300000. 
+Done with B=0.400000. 
+Done with B=0.500000. 
+Done with B=0.600000. 
+Done with B=0.700000. 
+Done with B=0.800000. 
+Done with B=0.900000. 
+Done with B=1.000000. 
+monte carlo cpp = [ 0.          0.08811854  0.15397272  0.20770952  0.25149882  0.28720096
+  0.31604519  0.33994165  0.35958272  0.37634709  0.39031193]
+Execution time = 615.218268
+
