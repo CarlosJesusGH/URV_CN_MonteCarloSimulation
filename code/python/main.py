@@ -14,10 +14,10 @@ utils_files.clear_dir(settings.output_directory + "plots/")
 utils_files.clear_dir(settings.output_directory + "temp/")
 
 # Erdös-Rényi (ER)
-if False:
+if True:
     utils_files.clear_dir(settings.output_directory + "nets/")
-    ns = [30, 50]       # n: The number of nodes.
-    ps = [0.07, 0.1]    # p: Probability for edge creation.
+    ns = [500, 1000]       # n: The number of nodes.
+    ps = [0.05, 0.1]    # p: Probability for edge creation.
     # Iterate over n's and p's
     for n in ns:
         for p in ps:
@@ -61,13 +61,9 @@ for subdir, dirs, files in os.walk(nets_dir):
                     # mc_sim.run_simulation(n_rep=100, p_0=0.2, t_max=1000, t_trans=900, n_samples_B=100, u=1)  # sample sim
                     # mc_sim.run_simulation(n_rep=10, p_0=0.2, t_max=1000, t_trans=900, n_samples_B=51, u=1)
                     # mc_sim.run_simulation_cpp(n_rep=100, p_0=0.2, t_max=1000, t_trans=900, n_samples_B=101, u=1)
-                    figure = mc_sim.run_simulation_cpp(n_rep=100, p_0=p_0, t_max=1000, t_trans=900, n_samples_B=101, u=u, figure=figure)
+                    figure = mc_sim.run_simulation_cpp(n_rep=50, p_0=p_0, t_max=1000, t_trans=900, n_samples_B=51, u=u, figure=figure)
 
 
-
-
-            # TODO: plot mc_sim.num_infected_by_step
-            # TODO: run simulation using different initial values, and iterate using B from 0 to 1 (steps 0.01)
             # cont... maybe we can change the name from run_simulation to run_simulation_fixed_b and then
             # cont... create a new method run_simulation where it goes over all values for B.
             # TODO: plot results after iterate for all values of B

@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ea19945-1ddc-43c1-86f1-997c76f93526" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/nets/airports_UW.net" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/plots/airports_UW_ini.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/plots/erdos_renyi_[n=50,p=0.1]_ini.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/airports_UW_ini.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/plots (20170607)/erdos_renyi_[n=30,p=0.07]&#10;SIS($N_{rep}$= 100, $T_{max}$= 1000, $T_{trans}$= 900, $N_{\beta}$= 101, $\mu$= 1, $\rho_0$= 0.2).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/plots (20170607)/erdos_renyi_[n=30,p=0.07]_ini.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/plots (20170607)/erdos_renyi_[n=30,p=0.1]&#10;SIS($N_{rep}$= 100, $T_{max}$= 1000, $T_{trans}$= 900, $N_{\beta}$= 101, $\mu$= 1, $\rho_0$= 0.2).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/plots (20170607)/erdos_renyi_[n=30,p=0.1]_ini.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/plots (20170607)/erdos_renyi_[n=50,p=0.07]&#10;SIS($N_{rep}$= 100, $T_{max}$= 1000, $T_{trans}$= 900, $N_{\beta}$= 101, $\mu$= 1, $\rho_0$= 0.2).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/plots (20170607)/erdos_renyi_[n=50,p=0.07]_ini.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/plots (20170607)/erdos_renyi_[n=50,p=0.1]&#10;SIS($N_{rep}$= 100, $T_{max}$= 1000, $T_{trans}$= 900, $N_{\beta}$= 101, $\mu$= 1, $\rho_0$= 0.2).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/plots (20170607)/erdos_renyi_[n=50,p=0.1]_ini.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/plots/erdos_renyi_[n=50,p=0.1]&#10;SIS($N_{rep}$= 100, $T_{max}$= 1000, $T_{trans}$= 900, $N_{\beta}$= 101).png" afterPath="$PROJECT_DIR$/output/plots/erdos_renyi_[n=50,p=0.1]&#10;SIS($N_{rep}$= 100, $T_{max}$= 1000, $T_{trans}$= 900, $N_{\beta}$= 101).png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/python/main.py" afterPath="$PROJECT_DIR$/code/python/main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/python/monte_carlo.py" afterPath="$PROJECT_DIR$/code/python/monte_carlo.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/python/utils_plots.py" afterPath="$PROJECT_DIR$/code/python/utils_plots.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,8 +31,8 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/code/python/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="63" column="136" lean-forward="true" selection-start-line="63" selection-start-column="136" selection-end-line="63" selection-end-column="136" />
+            <state relative-caret-position="240">
+              <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -846,8 +852,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/code/python/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="63" column="136" lean-forward="true" selection-start-line="63" selection-start-column="136" selection-end-line="63" selection-end-column="136" />
+        <state relative-caret-position="240">
+          <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
