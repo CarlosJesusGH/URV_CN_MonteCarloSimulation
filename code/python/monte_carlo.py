@@ -70,8 +70,8 @@ class MonteCarloSim:
             num_infected_by_step.append(len(self.infected_set) / self.n_vertices)
         return num_infected_by_step
 
-    def run_simulation_cpp(self, n_rep, p_0, t_max, t_trans, n_samples_B, u):
-        # Import c++ directory and monte_carlo_cpp module
+    def run_simulation_cpp(self, n_rep, p_0, t_max, t_trans, n_samples_B, u, figure=None):
+        # Import c++ directory and monte_carlo_cpp module (integrated using PyBind11)
         import sys
         sys.path.append("../c++/")
         import monte_carlo_cpp
@@ -83,10 +83,24 @@ class MonteCarloSim:
         print("monte carlo cpp = %s" % p_t)
         # Plot
         Bs = np.linspace(0, 1, num=n_samples_B, retstep=True)[0]
-        utils_plots.plot_data(Bs, p_t, title=self.net_name + "\nSIS(" + r"$N_{rep}$= " + str(n_rep) +
+        if figure is None:
+            figure = utils_plots.plot_data(Bs, p_t, title=self.net_name + "\nSIS(" + r"$N_{rep}$= " + str(n_rep) +
                                                   r", $T_{max}$= " + str(t_max) +
                                                   r", $T_{trans}$= " + str(t_trans) +
-                                                  r", $N_{\beta}$= " + str(n_samples_B) +
-                                                  r", $\mu$= " + str(u) +
-                                                  r", $\rho_0$= " + str(p_0) + ")"
-                              , xlabel=r'$\beta$', ylabel=r'$\rho$')
+                                                  r", $N_{\beta}$= " + str(n_samples_B)
+                                                  # + r", $\mu$= " + str(u)
+                                                  # + r", $\rho_0$= " + str(p_0)
+                                                  + ")"
+                                            , xlabel=r'$\beta$', ylabel=r'$\rho$'
+                                            ,legend=r"$\mu$= " + str(u) + r", $\rho_0$= " + str(p_0))
+        else:
+            figure = utils_plots.add_plot_to_figure(Bs, p_t, figure=figure, title=self.net_name + "\nSIS(" + r"$N_{rep}$= " + str(n_rep) +
+                                                          r", $T_{max}$= " + str(t_max) +
+                                                          r", $T_{trans}$= " + str(t_trans) +
+                                                          r", $N_{\beta}$= " + str(n_samples_B)
+                                                          # + r", $\mu$= " + str(u)
+                                                          # + r", $\rho_0$= " + str(p_0)
+                                                          + ")"
+                                                    , legend=r"$\mu$= " + str(u) + r", $\rho_0$= " + str(p_0))
+
+        return figure
