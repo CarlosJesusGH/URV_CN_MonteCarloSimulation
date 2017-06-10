@@ -1,9 +1,7 @@
-import igraph as igraph
 import os, time
-import utils_files
 import utils_networks
-import settings as settings
 from monte_carlo import *
+from multiprocessing import Pool
 
 # Mark start time
 startTime = time.clock()
@@ -14,18 +12,44 @@ utils_files.clear_dir(settings.output_directory + "plots/")
 utils_files.clear_dir(settings.output_directory + "temp/")
 
 # Erdös-Rényi (ER)
-if True:
+if False:
     utils_files.clear_dir(settings.output_directory + "nets/")
     ns = [500, 1000]       # n: The number of nodes.
     ps = [0.05, 0.1]    # p: Probability for edge creation.
     # Iterate over n's and p's
     for n in ns:
         for p in ps:
-            # G = nx.erdos_renyi_graph(n=n, p=p)
             g = igraph.Graph.Erdos_Renyi(n=n, p=p)
             iter_desc = "erdos_renyi_[n=" + str(n) + ",p=" + str(p) + "]"
             utils_networks.save_graph_in_pajek_format(g, iter_desc, is_igraph=True)
-            # utils_networks.plot_graph_with_communities(g, [0] * len(g.vs), settings.output_directory_plots + iter_desc + "_ini.png")
+
+# Watts-Strogatz (WS)
+if False:
+    utils_files.clear_dir(settings.output_directory + "nets/")
+    ns = [500]                              # n: The number of nodes
+    k = 4                                   # k: Each node is joined with its ``k`` nearest neighbors in a ring topology
+    ps = [0.5, 0.9]                         # p: The probability of rewiring each edge
+    # Iterate over n's and p's
+    for n in ns:
+        for p in ps:
+            g = igraph.Graph.Watts_Strogatz(dim=1, size=n, nei=k, p=p)
+            # G = cnc.watts_strogatz_network(n=n, k=k, p=p)
+            iter_desc = "watts_strogatz_[n=" + str(n) + ",k=" + str(k) + ",p=" + str(p) + "]"
+            utils_networks.save_graph_in_pajek_format(g, iter_desc, is_igraph=True)
+            utils_networks.plot_graph_with_communities(g, [0] * len(g.vs), settings.output_directory + "plots/" + iter_desc + "_ini.png")
+
+# Barabási & Albert (BA)
+if False:
+    utils_files.clear_dir(settings.output_directory + "nets/")
+    ns = [500, 1000]                              # n : Number of nodes
+    ms = [1, 2, 4]                      # m : Number of edges to attach from a new node to existing nodes
+    # Iterate over n's and m's
+    for n in ns:
+        for m in ms:
+            g = igraph.Graph.Barabasi(n=n, m=m)
+            iter_desc = "barabasi_albert_[n=" + str(n) + ",m=" + str(m) + "]"
+            utils_networks.save_graph_in_pajek_format(g, iter_desc, is_igraph=True)
+            utils_networks.plot_graph_with_communities(g, [0] * len(g.vs), settings.output_directory + "plots/" + iter_desc + "_ini.png")
 
 
 # Define nets directory and loop over it recursively
@@ -47,43 +71,16 @@ for subdir, dirs, files in os.walk(nets_dir):
             g.simplify()
 
             # For every graph we perform the monte-carlo simulation
-            utils_networks.plot_graph_with_communities(g, [0]*len(g.vs), png_path, )
+            utils_networks.plot_graph_with_communities(g, [0]*len(g.vs), png_path)
 
             print("n_vertices = %d, n_edges = %d" % (len(g.vs), len(g.es)))
 
-            p_0s = [0.05, 0.2]
-            us = [0.3, 0.7, 1]
-            figure = None
-            # Iterate over p_0's and u's
-            for u in us:
-                for p_0 in p_0s:
-                    mc_sim = MonteCarloSim(g, net_name)
-                    # mc_sim.run_simulation(n_rep=100, p_0=0.2, t_max=1000, t_trans=900, n_samples_B=100, u=1)  # sample sim
-                    # mc_sim.run_simulation(n_rep=10, p_0=0.2, t_max=1000, t_trans=900, n_samples_B=51, u=1)
-                    # mc_sim.run_simulation_cpp(n_rep=100, p_0=0.2, t_max=1000, t_trans=900, n_samples_B=101, u=1)
-                    figure = mc_sim.run_simulation_cpp(n_rep=50, p_0=p_0, t_max=1000, t_trans=900, n_samples_B=51, u=u, figure=figure)
-
-
-            # cont... maybe we can change the name from run_simulation to run_simulation_fixed_b and then
-            # cont... create a new method run_simulation where it goes over all values for B.
-            # TODO: plot results after iterate for all values of B
-
-            # break
-
-
-            # --------------------------------------------------------------------------------
-            # Plot resulting community detection separately in a temporal file
-            # utils_networks.plot_graph_with_communities(g, membership_ref, file_name="../output/temp/temp_1.png")
-            # utils_networks.plot_graph_with_communities(g, membership_m1, file_name="../output/temp/temp_2.png")
-            # utils_networks.plot_graph_with_communities(g, membership_m2, file_name="../output/temp/temp_3.png")
-            # utils_networks.plot_graph_with_communities(g, membership_m3, file_name="../output/temp/temp_4.png")
-
-            # Read all temporal created images and create a sub-ploted figure
-            # utils_networks.plot_all_temp_images(file, subdir[subdir.rfind('/')+1:])
-
-            # Add new values to compare communities table
-            # modularity_values = [file, mod_ref, mod_m1, mod_m2, mod_m3]
-            # utils_files.add_row_to_csv(path=settings.output_csv_modularity, headers=settings.csv_header_modularity, values=modularity_values)
+            # Iterate over several values for p_0, u and B using a single network.
+                # run_all_simulation_for_one_network(g, net_name)
+            # Try this using parallel execution by using multiprocessing-Pool
+            result1 = Pool().apply_async(run_all_simulation_for_one_network, [g, net_name])   # evaluate 'run_all_simulation_for_one_network(g, net_name)' asynchronously
+            answer1 = result1.get()
+            print("new process added")
 
 
 # Delete temporal files

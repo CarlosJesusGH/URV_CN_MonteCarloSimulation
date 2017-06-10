@@ -2,18 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ea19945-1ddc-43c1-86f1-997c76f93526" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/plots/erdos_renyi_[n=50,p=0.1]_ini.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/airports_UW_ini.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/plots (20170607)/erdos_renyi_[n=30,p=0.07]&#10;SIS($N_{rep}$= 100, $T_{max}$= 1000, $T_{trans}$= 900, $N_{\beta}$= 101, $\mu$= 1, $\rho_0$= 0.2).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/plots (20170607)/erdos_renyi_[n=30,p=0.07]_ini.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/plots (20170607)/erdos_renyi_[n=30,p=0.1]&#10;SIS($N_{rep}$= 100, $T_{max}$= 1000, $T_{trans}$= 900, $N_{\beta}$= 101, $\mu$= 1, $\rho_0$= 0.2).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/plots (20170607)/erdos_renyi_[n=30,p=0.1]_ini.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/plots (20170607)/erdos_renyi_[n=50,p=0.07]&#10;SIS($N_{rep}$= 100, $T_{max}$= 1000, $T_{trans}$= 900, $N_{\beta}$= 101, $\mu$= 1, $\rho_0$= 0.2).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/plots (20170607)/erdos_renyi_[n=50,p=0.07]_ini.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/plots (20170607)/erdos_renyi_[n=50,p=0.1]&#10;SIS($N_{rep}$= 100, $T_{max}$= 1000, $T_{trans}$= 900, $N_{\beta}$= 101, $\mu$= 1, $\rho_0$= 0.2).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/plots (20170607)/erdos_renyi_[n=50,p=0.1]_ini.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/plots/erdos_renyi_[n=50,p=0.1]&#10;SIS($N_{rep}$= 100, $T_{max}$= 1000, $T_{trans}$= 900, $N_{\beta}$= 101).png" afterPath="$PROJECT_DIR$/output/plots/erdos_renyi_[n=50,p=0.1]&#10;SIS($N_{rep}$= 100, $T_{max}$= 1000, $T_{trans}$= 900, $N_{\beta}$= 101).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/nets (models)/airports_UW_ini.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/nets (models)/barabasi_albert_[n=1000,m=1]_ini.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/nets (models)/barabasi_albert_[n=1000,m=2]_ini.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/nets (models)/barabasi_albert_[n=1000,m=4]_ini.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/nets (models)/barabasi_albert_[n=500,m=1]_ini.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/nets (models)/barabasi_albert_[n=500,m=2]_ini.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/nets (models)/barabasi_albert_[n=500,m=4]_ini.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/nets (models)/erdos_renyi_[n=50,p=0.1]_ini.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/nets (models)/erdos_renyi_[n=500,p=0.05]_ini.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/nets (models)/erdos_renyi_[n=500,p=0.1]_ini.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/nets (models)/watts_strogatz_[n=500,k=4,p=0.5]_ini.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/nets (models)/watts_strogatz_[n=500,k=4,p=0.9]_ini.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/nets (models)/barabasi_albert_[n=1000,m=1].net" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/nets (models)/barabasi_albert_[n=1000,m=2].net" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/nets (models)/barabasi_albert_[n=1000,m=4].net" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/nets (models)/barabasi_albert_[n=500,m=1].net" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/nets (models)/barabasi_albert_[n=500,m=2].net" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/nets (models)/barabasi_albert_[n=500,m=4].net" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/nets (models)/erdos_renyi_[n=500,p=0.05].net" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/nets (models)/erdos_renyi_[n=500,p=0.1].net" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/nets (models)/watts_strogatz_[n=500,k=4,p=0.5].net" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/nets (models)/watts_strogatz_[n=500,k=4,p=0.9].net" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/nets (models)/erdos_renyi_[n=30,p=0.07].net" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/nets (models)/erdos_renyi_[n=30,p=0.1].net" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/nets (models)/erdos_renyi_[n=50,p=0.07].net" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/nets/erdos_renyi_[n=50,p=0.1].net" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/erdos_renyi_[n=50,p=0.1]&#10;SIS($N_{rep}$= 10, $T_{max}$= 1000, $T_{trans}$= 900, $N_{\beta}$= 51, $\mu$= 1, $\rho_0$= 0.2).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/erdos_renyi_[n=50,p=0.1]_ini.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/python/main.py" afterPath="$PROJECT_DIR$/code/python/main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/python/monte_carlo.py" afterPath="$PROJECT_DIR$/code/python/monte_carlo.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,11 +50,24 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/code/python/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+            <state relative-caret-position="520">
+              <caret line="55" column="44" lean-forward="false" selection-start-line="55" selection-start-column="44" selection-end-line="55" selection-end-column="44" />
               <folding>
-                <element signature="e#0#23#0" expanded="true" />
+                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#377#828#0" expanded="false" />
+                <element signature="e#864#1717#0" expanded="false" />
+                <element signature="e#1756#2412#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="utils_parallel_exe.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/python/utils_parallel_exe.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -43,24 +75,15 @@
       <file leaf-file-name="monte_carlo.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/python/monte_carlo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="103" column="109" lean-forward="false" selection-start-line="103" selection-start-column="109" selection-end-line="103" selection-end-column="109" />
+            <state relative-caret-position="510">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
-                <element signature="e#522#818#0" expanded="false" />
-                <element signature="e#2390#3297#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="utils_plots.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/python/utils_plots.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="6" column="47" lean-forward="false" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
+                <element signature="e#802#950#0" expanded="false" />
+                <element signature="e#1000#1296#0" expanded="false" />
+                <element signature="e#1380#2807#0" expanded="false" />
+                <element signature="e#2868#3775#0" expanded="false" />
+                <element signature="e#3876#6008#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -98,9 +121,10 @@
         <option value="$PROJECT_DIR$/code/python/utils_networks.py" />
         <option value="$PROJECT_DIR$/code/python/settings.py" />
         <option value="$PROJECT_DIR$/code/c++/monte_carlo_cpp.cpp" />
-        <option value="$PROJECT_DIR$/code/python/monte_carlo.py" />
         <option value="$PROJECT_DIR$/code/python/utils_plots.py" />
+        <option value="$PROJECT_DIR$/code/python/monte_carlo.py" />
         <option value="$PROJECT_DIR$/code/python/main.py" />
+        <option value="$PROJECT_DIR$/code/python/utils_parallel_exe.py" />
       </list>
     </option>
   </component>
@@ -135,34 +159,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Activity_4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Activity_4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Activity_4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="output" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Activity_4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Activity_4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="docs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -381,7 +377,7 @@
     <frame x="-1" y="-11" width="1922" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20882669" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21205598" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2286652" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -426,35 +422,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/code/python/utils_plots.py</url>
-          <line>7</line>
-          <option name="timeStamp" value="44" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="45" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/code/python/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2017.1/system/python_stubs/1158477114/igraph/_igraph.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33014">
-          <caret line="1942" column="8" lean-forward="false" selection-start-line="1942" selection-start-column="8" selection-end-line="1942" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code/python/utils_networks.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2295">
@@ -468,8 +440,11 @@
           <caret line="41" column="26" lean-forward="false" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
-            <element signature="e#522#818#0" expanded="false" />
-            <element signature="e#2390#3297#0" expanded="false" />
+            <element signature="e#802#950#0" expanded="false" />
+            <element signature="e#1000#1296#0" expanded="false" />
+            <element signature="e#1380#2807#0" expanded="false" />
+            <element signature="e#2868#3775#0" expanded="false" />
+            <element signature="e#3876#6008#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -493,7 +468,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#377#828#0" expanded="false" />
+            <element signature="e#864#1717#0" expanded="false" />
+            <element signature="e#1756#2412#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -511,8 +489,11 @@
           <caret line="41" column="26" lean-forward="false" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
-            <element signature="e#522#818#0" expanded="false" />
-            <element signature="e#2390#3297#0" expanded="false" />
+            <element signature="e#802#950#0" expanded="false" />
+            <element signature="e#1000#1296#0" expanded="false" />
+            <element signature="e#1380#2807#0" expanded="false" />
+            <element signature="e#2868#3775#0" expanded="false" />
+            <element signature="e#3876#6008#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -536,7 +517,10 @@
         <state relative-caret-position="1150">
           <caret line="55" column="28" lean-forward="false" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#377#828#0" expanded="false" />
+            <element signature="e#864#1717#0" expanded="false" />
+            <element signature="e#1756#2412#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -575,8 +559,11 @@
           <caret line="41" column="83" lean-forward="false" selection-start-line="41" selection-start-column="83" selection-end-line="41" selection-end-column="83" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
-            <element signature="e#522#818#0" expanded="false" />
-            <element signature="e#2390#3297#0" expanded="false" />
+            <element signature="e#802#950#0" expanded="false" />
+            <element signature="e#1000#1296#0" expanded="false" />
+            <element signature="e#1380#2807#0" expanded="false" />
+            <element signature="e#2868#3775#0" expanded="false" />
+            <element signature="e#3876#6008#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -586,7 +573,10 @@
         <state relative-caret-position="1104">
           <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#377#828#0" expanded="false" />
+            <element signature="e#864#1717#0" expanded="false" />
+            <element signature="e#1756#2412#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -625,8 +615,11 @@
           <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
-            <element signature="e#522#818#0" expanded="false" />
-            <element signature="e#2390#3297#0" expanded="false" />
+            <element signature="e#802#950#0" expanded="false" />
+            <element signature="e#1000#1296#0" expanded="false" />
+            <element signature="e#1380#2807#0" expanded="false" />
+            <element signature="e#2868#3775#0" expanded="false" />
+            <element signature="e#3876#6008#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -636,7 +629,10 @@
         <state relative-caret-position="1196">
           <caret line="52" column="99" lean-forward="false" selection-start-line="52" selection-start-column="99" selection-end-line="52" selection-end-column="99" />
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#377#828#0" expanded="false" />
+            <element signature="e#864#1717#0" expanded="false" />
+            <element signature="e#1756#2412#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -647,8 +643,11 @@
           <caret line="26" column="55" lean-forward="false" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
-            <element signature="e#522#818#0" expanded="false" />
-            <element signature="e#2390#3297#0" expanded="false" />
+            <element signature="e#802#950#0" expanded="false" />
+            <element signature="e#1000#1296#0" expanded="false" />
+            <element signature="e#1380#2807#0" expanded="false" />
+            <element signature="e#2868#3775#0" expanded="false" />
+            <element signature="e#3876#6008#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -658,7 +657,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#377#828#0" expanded="false" />
+            <element signature="e#864#1717#0" expanded="false" />
+            <element signature="e#1756#2412#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -669,8 +671,11 @@
           <caret line="39" column="41" lean-forward="false" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
-            <element signature="e#522#818#0" expanded="false" />
-            <element signature="e#2390#3297#0" expanded="false" />
+            <element signature="e#802#950#0" expanded="false" />
+            <element signature="e#1000#1296#0" expanded="false" />
+            <element signature="e#1380#2807#0" expanded="false" />
+            <element signature="e#2868#3775#0" expanded="false" />
+            <element signature="e#3876#6008#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -745,13 +750,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2017.1/system/python_stubs/1158477114/igraph/_igraph.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1942" column="8" lean-forward="false" selection-start-line="1942" selection-start-column="8" selection-end-line="1942" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code/python/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -784,7 +782,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="365">
           <caret line="2522" column="0" lean-forward="false" selection-start-line="2522" selection-start-column="0" selection-end-line="2522" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -792,7 +789,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3415">
           <caret line="1165" column="8" lean-forward="false" selection-start-line="1165" selection-start-column="8" selection-end-line="1165" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -800,19 +796,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7659">
           <caret line="296" column="8" lean-forward="false" selection-start-line="296" selection-start-column="8" selection-end-line="296" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/python/monte_carlo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="103" column="109" lean-forward="false" selection-start-line="103" selection-start-column="109" selection-end-line="103" selection-end-column="109" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-            <element signature="e#522#818#0" expanded="false" />
-            <element signature="e#2390#3297#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -828,6 +811,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3286">
           <caret line="427" column="4" lean-forward="false" selection-start-line="427" selection-start-column="4" selection-end-line="427" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2017.1/system/python_stubs/1158477114/igraph/_igraph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="4866" column="8" lean-forward="false" selection-start-line="4866" selection-start-column="8" selection-end-line="4866" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/python/utils_networks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-602">
+          <caret line="1" column="8" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -842,20 +840,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/python/utils_networks.py">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons/multiprocessing/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="145" column="13" lean-forward="false" selection-start-line="145" selection-start-column="13" selection-end-line="145" selection-end-column="13" />
+        <state relative-caret-position="210">
+          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/python/monte_carlo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#802#950#0" expanded="false" />
+            <element signature="e#1000#1296#0" expanded="false" />
+            <element signature="e#1380#2807#0" expanded="false" />
+            <element signature="e#2868#3775#0" expanded="false" />
+            <element signature="e#3876#6008#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/python/utils_parallel_exe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/code/python/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+        <state relative-caret-position="520">
+          <caret line="55" column="44" lean-forward="false" selection-start-line="55" selection-start-column="44" selection-end-line="55" selection-end-column="44" />
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#377#828#0" expanded="false" />
+            <element signature="e#864#1717#0" expanded="false" />
+            <element signature="e#1756#2412#0" expanded="false" />
           </folding>
         </state>
       </provider>

@@ -4,6 +4,19 @@ import random
 import numpy as np
 import utils_files, settings, utils_plots
 
+
+def run_all_simulation_for_one_network(g, net_name):
+    p_0s = [0.2] #[0.05, 0.2]
+    us = [0.3, 0.7, 1]
+    figure = None
+    # Iterate over p_0's and u's
+    for u in us:
+        for p_0 in p_0s:
+            mc_sim = MonteCarloSim(g, net_name)
+            # mc_sim.run_simulation(n_rep=50, p_0=0.2, t_max=1000, t_trans=900, n_samples_B=51, u=1)
+            figure = mc_sim.run_simulation_cpp(n_rep=50, p_0=p_0, t_max=1000, t_trans=900, n_samples_B=51, u=u, figure=figure)
+
+
 class MonteCarloSim:
     """A class to simulate an epidemic spreading using a Monte Carlo simulation"""
     net_name = ""
