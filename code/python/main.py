@@ -76,11 +76,10 @@ for subdir, dirs, files in os.walk(nets_dir):
             print("n_vertices = %d, n_edges = %d" % (len(g.vs), len(g.es)))
 
             # Iterate over several values for p_0, u and B using a single network.
-                # run_all_simulation_for_one_network(g, net_name)
+            run_all_simulation_for_one_network(g, net_name)
             # Try this using parallel execution by using multiprocessing-Pool
-            result1 = Pool().apply_async(run_all_simulation_for_one_network, [g, net_name])   # evaluate 'run_all_simulation_for_one_network(g, net_name)' asynchronously
-            answer1 = result1.get()
-            print("new process added")
+                #result1 = Pool().apply_async(run_all_simulation_for_one_network, [g, net_name])   # evaluate 'run_all_simulation_for_one_network(g, net_name)' asynchronously
+                #answer1 = result1.get()
 
 
 # Delete temporal files
