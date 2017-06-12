@@ -1,0 +1,389 @@
+/home/cj/Coding/miniconda3/envs/venv_conda/bin/python3 /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/code/python/main.py
+
+===========================
+../../output/nets/watts_strogatz_[n=500,k=4,p=0.9].net
+n_vertices = 500, n_edges = 2000
+Done with B=0.000000. 
+Done with B=0.020000. 
+Done with B=0.040000. 
+Done with B=0.060000. 
+Done with B=0.080000. 
+Done with B=0.100000. 
+Done with B=0.120000. 
+Done with B=0.140000. 
+Done with B=0.160000. 
+Done with B=0.180000. 
+Done with B=0.200000. 
+Done with B=0.220000. 
+Done with B=0.240000. 
+Done with B=0.260000. 
+Done with B=0.280000. 
+Done with B=0.300000. 
+Done with B=0.320000. 
+Done with B=0.340000. 
+Done with B=0.360000. 
+Done with B=0.380000. 
+Done with B=0.400000. 
+Done with B=0.420000. 
+Done with B=0.440000. 
+Done with B=0.460000. 
+Done with B=0.480000. 
+Done with B=0.500000. 
+Done with B=0.520000. 
+Done with B=0.540000. 
+Done with B=0.560000. 
+Done with B=0.580000. 
+Done with B=0.600000. 
+Done with B=0.620000. 
+Done with B=0.640000. 
+Done with B=0.660000. 
+Done with B=0.680000. 
+Done with B=0.700000. 
+Done with B=0.720000. 
+Done with B=0.740000. 
+Done with B=0.760000. 
+Done with B=0.780000. 
+Done with B=0.800000. 
+Done with B=0.820000. 
+Done with B=0.840000. 
+Done with B=0.860000. 
+Done with B=0.880000. 
+Done with B=0.900000. 
+Done with B=0.920000. 
+Done with B=0.940000. 
+Done with B=0.960000. 
+Done with B=0.980000. 
+Done with B=1.000000. 
+monte carlo cpp = [ 0.          0.          0.02109794  0.28022298  0.39900243  0.47132596
+  0.51987886  0.55396754  0.57981622  0.5994339   0.61455023  0.62702632
+  0.63690853  0.6450361   0.65196896  0.65762717  0.66232425  0.66636497
+  0.66988629  0.67273337  0.6752407   0.67738092  0.67931825  0.6808489
+  0.682414    0.68353397  0.68472427  0.68560517  0.68643266  0.68710715
+  0.68766433  0.68839234  0.68868721  0.68920821  0.68961722  0.68981028
+  0.6901983   0.69051486  0.69056374  0.69079155  0.69102991  0.69116116
+  0.69141352  0.69141585  0.69156665  0.69158942  0.69166094  0.69173634
+  0.69186068  0.69184893  0.69203466]
+Done with B=0,000000. 
+Done with B=0,020000. 
+Done with B=0,040000. 
+Done with B=0,060000. 
+Done with B=0,080000. 
+Done with B=0,100000. 
+Done with B=0,120000. 
+Done with B=0,140000. 
+Done with B=0,160000. 
+Done with B=0,180000. 
+Done with B=0,200000. 
+Done with B=0,220000. 
+Done with B=0,240000. 
+Done with B=0,260000. 
+Done with B=0,280000. 
+Done with B=0,300000. 
+Done with B=0,320000. 
+Done with B=0,340000. 
+Done with B=0,360000. 
+Done with B=0,380000. 
+Done with B=0,400000. 
+Done with B=0,420000. 
+Done with B=0,440000. 
+Done with B=0,460000. 
+Done with B=0,480000. 
+Done with B=0,500000. 
+Done with B=0,520000. 
+Done with B=0,540000. 
+Done with B=0,560000. 
+Done with B=0,580000. 
+Done with B=0,600000. 
+Done with B=0,620000. 
+Done with B=0,640000. 
+Done with B=0,660000. 
+Done with B=0,680000. 
+Done with B=0,700000. 
+Done with B=0,720000. 
+Done with B=0,740000. 
+Done with B=0,760000. 
+Done with B=0,780000. 
+Done with B=0,800000. 
+Done with B=0,820000. 
+Done with B=0,840000. 
+Done with B=0,860000. 
+Done with B=0,880000. 
+Done with B=0,900000. 
+Done with B=0,920000. 
+Done with B=0,940000. 
+Done with B=0,960000. 
+Done with B=0,980000. 
+Done with B=1,000000. 
+monte carlo cpp = [  0.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00
+   3.07692312e-06   8.56732875e-02   1.80714652e-01   2.45770276e-01
+   2.93966562e-01   3.31620455e-01   3.60794932e-01   3.85175139e-01
+   4.04755890e-01   4.21099186e-01   4.34702665e-01   4.46373612e-01
+   4.56314713e-01   4.64862138e-01   4.72194880e-01   4.78586942e-01
+   4.84176666e-01   4.89007950e-01   4.93339449e-01   4.97229278e-01
+   5.00473917e-01   5.03385544e-01   5.06119907e-01   5.08410454e-01
+   5.10446012e-01   5.12324929e-01   5.13986409e-01   5.15448630e-01
+   5.16829252e-01   5.18124104e-01   5.19092321e-01   5.20104408e-01
+   5.20874977e-01   5.21760821e-01   5.22512436e-01   5.23052216e-01
+   5.23641944e-01   5.24213374e-01   5.24685979e-01   5.25070667e-01
+   5.25503159e-01   5.25888979e-01   5.26234984e-01   5.26378989e-01
+   5.26696324e-01   5.26915073e-01   5.27049899e-01]
+Done with B=0,000000. 
+Done with B=0,020000. 
+Done with B=0,040000. 
+Done with B=0,060000. 
+Done with B=0,080000. 
+Done with B=0,100000. 
+Done with B=0,120000. 
+Done with B=0,140000. 
+Done with B=0,160000. 
+Done with B=0,180000. 
+Done with B=0,200000. 
+Done with B=0,220000. 
+Done with B=0,240000. 
+Done with B=0,260000. 
+Done with B=0,280000. 
+Done with B=0,300000. 
+Done with B=0,320000. 
+Done with B=0,340000. 
+Done with B=0,360000. 
+Done with B=0,380000. 
+Done with B=0,400000. 
+Done with B=0,420000. 
+Done with B=0,440000. 
+Done with B=0,460000. 
+Done with B=0,480000. 
+Done with B=0,500000. 
+Done with B=0,520000. 
+Done with B=0,540000. 
+Done with B=0,560000. 
+Done with B=0,580000. 
+Done with B=0,600000. 
+Done with B=0,620000. 
+Done with B=0,640000. 
+Done with B=0,660000. 
+Done with B=0,680000. 
+Done with B=0,700000. 
+Done with B=0,720000. 
+Done with B=0,740000. 
+Done with B=0,760000. 
+Done with B=0,780000. 
+Done with B=0,800000. 
+Done with B=0,820000. 
+Done with B=0,840000. 
+Done with B=0,860000. 
+Done with B=0,880000. 
+Done with B=0,900000. 
+Done with B=0,920000. 
+Done with B=0,940000. 
+Done with B=0,960000. 
+Done with B=0,980000. 
+Done with B=1,000000. 
+monte carlo cpp = [  0.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00
+   0.00000000e+00   0.00000000e+00   3.57242752e-05   7.15584457e-02
+   1.37877882e-01   1.85846478e-01   2.23333865e-01   2.53746182e-01
+   2.79067039e-01   3.00438136e-01   3.18001091e-01   3.33175331e-01
+   3.46189678e-01   3.57481688e-01   3.67281795e-01   3.75823259e-01
+   3.83248746e-01   3.89893383e-01   3.95712316e-01   4.00954753e-01
+   4.05692458e-01   4.09765422e-01   4.13519174e-01   4.16784286e-01
+   4.19774383e-01   4.22419369e-01   4.24842805e-01   4.27064776e-01
+   4.29045558e-01   4.30833936e-01   4.32452381e-01   4.33929622e-01
+   4.35251296e-01   4.36499089e-01   4.37632442e-01   4.38651681e-01
+   4.39550608e-01   4.40396726e-01   4.41187292e-01   4.41897392e-01
+   4.42529202e-01   4.43111539e-01   4.43651974e-01   4.44146901e-01
+   4.44581896e-01   4.44981605e-01   4.45371330e-01]
+
+===========================
+../../output/nets/watts_strogatz_[n=500,k=4,p=0.5].net
+n_vertices = 500, n_edges = 2000
+Done with B=0,000000. 
+Done with B=0,020000. 
+Done with B=0,040000. 
+Done with B=0,060000. 
+Done with B=0,080000. 
+Done with B=0,100000. 
+Done with B=0,120000. 
+Done with B=0,140000. 
+Done with B=0,160000. 
+Done with B=0,180000. 
+Done with B=0,200000. 
+Done with B=0,220000. 
+Done with B=0,240000. 
+Done with B=0,260000. 
+Done with B=0,280000. 
+Done with B=0,300000. 
+Done with B=0,320000. 
+Done with B=0,340000. 
+Done with B=0,360000. 
+Done with B=0,380000. 
+Done with B=0,400000. 
+Done with B=0,420000. 
+Done with B=0,440000. 
+Done with B=0,460000. 
+Done with B=0,480000. 
+Done with B=0,500000. 
+Done with B=0,520000. 
+Done with B=0,540000. 
+Done with B=0,560000. 
+Done with B=0,580000. 
+Done with B=0,600000. 
+Done with B=0,620000. 
+Done with B=0,640000. 
+Done with B=0,660000. 
+Done with B=0,680000. 
+Done with B=0,700000. 
+Done with B=0,720000. 
+Done with B=0,740000. 
+Done with B=0,760000. 
+Done with B=0,780000. 
+Done with B=0,800000. 
+Done with B=0,820000. 
+Done with B=0,840000. 
+Done with B=0,860000. 
+Done with B=0,880000. 
+Done with B=0,900000. 
+Done with B=0,920000. 
+Done with B=0,940000. 
+Done with B=0,960000. 
+Done with B=0,980000. 
+Done with B=1,000000. 
+monte carlo cpp = [ 0.          0.          0.00769998  0.2754139   0.39965472  0.47388083
+  0.52343291  0.55843395  0.5839476   0.60357398  0.61897033  0.63111407
+  0.64091456  0.64892721  0.65568006  0.66107279  0.66542071  0.66948909
+  0.67275375  0.67547876  0.67791831  0.67996079  0.68175095  0.68320215
+  0.68441659  0.68563592  0.68656558  0.6871857   0.6879788   0.68852329
+  0.68897307  0.68955362  0.68994439  0.69033653  0.69065553  0.69086957
+  0.69104332  0.69131762  0.69136661  0.69158864  0.69169104  0.69179434
+  0.6919508   0.69191426  0.69202048  0.69197673  0.69204402  0.69210303
+  0.69216067  0.69219398  0.69215178]
+Done with B=0,000000. 
+Done with B=0,020000. 
+Done with B=0,040000. 
+Done with B=0,060000. 
+Done with B=0,080000. 
+Done with B=0,100000. 
+Done with B=0,120000. 
+Done with B=0,140000. 
+Done with B=0,160000. 
+Done with B=0,180000. 
+Done with B=0,200000. 
+Done with B=0,220000. 
+Done with B=0,240000. 
+Done with B=0,260000. 
+Done with B=0,280000. 
+Done with B=0,300000. 
+Done with B=0,320000. 
+Done with B=0,340000. 
+Done with B=0,360000. 
+Done with B=0,380000. 
+Done with B=0,400000. 
+Done with B=0,420000. 
+Done with B=0,440000. 
+Done with B=0,460000. 
+Done with B=0,480000. 
+Done with B=0,500000. 
+Done with B=0,520000. 
+Done with B=0,540000. 
+Done with B=0,560000. 
+Done with B=0,580000. 
+Done with B=0,600000. 
+Done with B=0,620000. 
+Done with B=0,640000. 
+Done with B=0,660000. 
+Done with B=0,680000. 
+Done with B=0,700000. 
+Done with B=0,720000. 
+Done with B=0,740000. 
+Done with B=0,760000. 
+Done with B=0,780000. 
+Done with B=0,800000. 
+Done with B=0,820000. 
+Done with B=0,840000. 
+Done with B=0,860000. 
+Done with B=0,880000. 
+Done with B=0,900000. 
+Done with B=0,920000. 
+Done with B=0,940000. 
+Done with B=0,960000. 
+Done with B=0,980000. 
+Done with B=1,000000. 
+monte carlo cpp = [  0.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00
+   4.03596414e-06   6.51986822e-02   1.72772154e-01   2.41681352e-01
+   2.93210238e-01   3.31946462e-01   3.62826020e-01   3.87439251e-01
+   4.08054590e-01   4.24355716e-01   4.38471973e-01   4.50105488e-01
+   4.60205287e-01   4.68702644e-01   4.76091862e-01   4.82392758e-01
+   4.88065630e-01   4.92636740e-01   4.97011542e-01   5.00735044e-01
+   5.03921032e-01   5.06808460e-01   5.09156704e-01   5.11504114e-01
+   5.13394535e-01   5.15226364e-01   5.16802311e-01   5.18128514e-01
+   5.19413233e-01   5.20482481e-01   5.21356225e-01   5.22193551e-01
+   5.23043990e-01   5.23737073e-01   5.24403691e-01   5.24863243e-01
+   5.25326014e-01   5.25797307e-01   5.26209772e-01   5.26582003e-01
+   5.26917219e-01   5.27222753e-01   5.27409613e-01   5.27576208e-01
+   5.27775645e-01   5.27893603e-01   5.28056502e-01]
+Done with B=0,000000. 
+Done with B=0,020000. 
+Done with B=0,040000. 
+Done with B=0,060000. 
+Done with B=0,080000. 
+Done with B=0,100000. 
+Done with B=0,120000. 
+Done with B=0,140000. 
+Done with B=0,160000. 
+Done with B=0,180000. 
+Done with B=0,200000. 
+Done with B=0,220000. 
+Done with B=0,240000. 
+Done with B=0,260000. 
+Done with B=0,280000. 
+Done with B=0,300000. 
+Done with B=0,320000. 
+Done with B=0,340000. 
+Done with B=0,360000. 
+Done with B=0,380000. 
+Done with B=0,400000. 
+Done with B=0,420000. 
+Done with B=0,440000. 
+Done with B=0,460000. 
+Done with B=0,480000. 
+Done with B=0,500000. 
+Done with B=0,520000. 
+Done with B=0,540000. 
+Done with B=0,560000. 
+Done with B=0,580000. 
+Done with B=0,600000. 
+Done with B=0,620000. 
+Done with B=0,640000. 
+Done with B=0,660000. 
+Done with B=0,680000. 
+Done with B=0,700000. 
+Done with B=0,720000. 
+Done with B=0,740000. 
+Done with B=0,760000. 
+Done with B=0,780000. 
+Done with B=0,800000. 
+Done with B=0,820000. 
+Done with B=0,840000. 
+Done with B=0,860000. 
+Done with B=0,880000. 
+Done with B=0,900000. 
+Done with B=0,920000. 
+Done with B=0,940000. 
+Done with B=0,960000. 
+Done with B=0,980000. 
+Done with B=1,000000. 
+monte carlo cpp = [  0.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00
+   0.00000000e+00   0.00000000e+00   1.47852154e-06   4.96383607e-02
+   1.29038721e-01   1.80526838e-01   2.20785573e-01   2.53013760e-01
+   2.79493332e-01   3.01523030e-01   3.20007741e-01   3.35751057e-01
+   3.49129021e-01   3.60659510e-01   3.70532453e-01   3.79281789e-01
+   3.86851430e-01   3.93518507e-01   3.99320334e-01   4.04621631e-01
+   4.09168273e-01   4.13288474e-01   4.17006552e-01   4.20157015e-01
+   4.23119485e-01   4.25714046e-01   4.28125799e-01   4.30198848e-01
+   4.32086676e-01   4.33822095e-01   4.35296953e-01   4.36723769e-01
+   4.37914044e-01   4.39057142e-01   4.40104008e-01   4.41017002e-01
+   4.41899270e-01   4.42637116e-01   4.43294108e-01   4.43943828e-01
+   4.44501251e-01   4.45007950e-01   4.45459187e-01   4.45871115e-01
+   4.46247518e-01   4.46617782e-01   4.46909279e-01]
+Execution time = 7070.320808
+
+Process finished with exit code 139 (interrupted by signal 11: SIGSEGV)
+

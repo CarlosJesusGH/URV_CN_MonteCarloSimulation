@@ -2,34 +2,66 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ea19945-1ddc-43c1-86f1-997c76f93526" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/nets (models)/barabasi_albert_[n=1000,m=2].net" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/nets (models)/barabasi_albert_[n=1000,m=2]_ini.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/nets (models)/barabasi_albert_[n=1000,m=4].net" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/nets (models)/barabasi_albert_[n=1000,m=4]_ini.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/nets/barabasi_albert_[n=500,m=1].net" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/nets/barabasi_albert_[n=500,m=2].net" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/nets/barabasi_albert_[n=500,m=4].net" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/plots/barabasi_albert_[n=500,m=2]_ini.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/airports (first tests)/airports_UW&#10;SIS($N_{rep}$= 10, $T_{max}$= 100, $T_{trans}$= 90, $N_{\beta}$= 11, $\mu$= 0, $\rho_0$= 0.2).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/airports (first tests)/airports_UW&#10;SIS($N_{rep}$= 10, $T_{max}$= 100, $T_{trans}$= 90, $N_{\beta}$= 11, $\mu$= 0.1, $\rho_0$= 0.2).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/airports (first tests)/airports_UW&#10;SIS($N_{rep}$= 10, $T_{max}$= 100, $T_{trans}$= 90, $N_{\beta}$= 11, $\mu$= 0.2, $\rho_0$= 0.2).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/airports (first tests)/airports_UW&#10;SIS($N_{rep}$= 10, $T_{max}$= 100, $T_{trans}$= 90, $N_{\beta}$= 11, $\mu$= 0.3, $\rho_0$= 0.2).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/airports (first tests)/airports_UW&#10;SIS($N_{rep}$= 10, $T_{max}$= 100, $T_{trans}$= 90, $N_{\beta}$= 11, $\mu$= 0.5, $\rho_0$= 0.2).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/airports (first tests)/airports_UW&#10;SIS($N_{rep}$= 10, $T_{max}$= 100, $T_{trans}$= 90, $N_{\beta}$= 11, $\mu$= 0.7, $\rho_0$= 0.05).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/airports (first tests)/airports_UW&#10;SIS($N_{rep}$= 10, $T_{max}$= 100, $T_{trans}$= 90, $N_{\beta}$= 11, $\mu$= 0.7, $\rho_0$= 0.1).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/airports (first tests)/airports_UW&#10;SIS($N_{rep}$= 10, $T_{max}$= 100, $T_{trans}$= 90, $N_{\beta}$= 11, $\mu$= 0.7, $\rho_0$= 0.2).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/airports (first tests)/airports_UW&#10;SIS($N_{rep}$= 10, $T_{max}$= 100, $T_{trans}$= 90, $N_{\beta}$= 11, $\mu$= 0.8, $\rho_0$= 0.2).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/airports (first tests)/airports_UW&#10;SIS($N_{rep}$= 10, $T_{max}$= 100, $T_{trans}$= 90, $N_{\beta}$= 11, $\mu$= 1, $\rho_0$= 0.2).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/airports (first tests)/airports_UW_ini.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/best erdos_renyi [complete test]/erdos_renyi_[n=50,p=0.1]&#10;SIS($N_{rep}$= 100, $T_{max}$= 1000, $T_{trans}$= 900, $N_{\beta}$= 101).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/best erdos_renyi [complete test]/erdos_renyi_[n=50,p=0.1]_ini.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/best erdos_renyi [complete test]/erdos_renyi_[n=500,p=0.05]&#10;SIS($N_{rep}$= 50, $T_{max}$= 1000, $T_{trans}$= 900, $N_{\beta}$= 51).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/best erdos_renyi [complete test]/erdos_renyi_[n=500,p=0.05]_ini.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/best erdos_renyi [complete test]/erdos_renyi_[n=500,p=0.1]&#10;SIS($N_{rep}$= 50, $T_{max}$= 1000, $T_{trans}$= 900, $N_{\beta}$= 51).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/best erdos_renyi [complete test]/erdos_renyi_[n=500,p=0.1]_ini.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/best erdos_renyi [complete test]/terminal_log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/nets (models)/airports_UW.net" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/nets (models)/airports_UW_ini.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/nets (models)/barabasi_albert_[n=1000,m=1].net" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/nets (models)/barabasi_albert_[n=1000,m=1]_ini.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/nets (models)/barabasi_albert_[n=500,m=1].net" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/nets (models)/barabasi_albert_[n=500,m=1]_ini.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/nets (models)/barabasi_albert_[n=500,m=2].net" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/nets (models)/barabasi_albert_[n=500,m=2]_ini.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/nets (models)/barabasi_albert_[n=500,m=4].net" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/nets (models)/barabasi_albert_[n=500,m=4]_ini.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/nets (models)/erdos_renyi_[n=50,p=0.1].net" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/nets (models)/erdos_renyi_[n=50,p=0.1]_ini.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/nets (models)/erdos_renyi_[n=500,p=0.05].net" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/nets (models)/erdos_renyi_[n=500,p=0.05]_ini.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/nets (models)/erdos_renyi_[n=500,p=0.1].net" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/nets (models)/erdos_renyi_[n=500,p=0.1]_ini.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/nets (models)/watts_strogatz_[n=500,k=4,p=0.5].net" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/nets (models)/watts_strogatz_[n=500,k=4,p=0.5]_ini.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/nets (models)/watts_strogatz_[n=500,k=4,p=0.9].net" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/nets (models)/watts_strogatz_[n=500,k=4,p=0.9]_ini.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/nets (not included in tests)/barabasi_albert_[n=1000,m=2].net" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/nets (not included in tests)/barabasi_albert_[n=1000,m=2]_ini.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/nets (not included in tests)/barabasi_albert_[n=1000,m=4].net" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/nets (not included in tests)/barabasi_albert_[n=1000,m=4]_ini.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/nets (not included in tests)/erdos_renyi_[n=1000,p=0.05].net" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/nets (not included in tests)/erdos_renyi_[n=1000,p=0.1].net" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/nets (not included in tests)/erdos_renyi_[n=30,p=0.07].net" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/nets (not included in tests)/erdos_renyi_[n=30,p=0.1].net" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/nets (not included in tests)/erdos_renyi_[n=50,p=0.07].net" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/airports/airports_UW&#10;SIS($N_{rep}$= 10, $T_{max}$= 100, $T_{trans}$= 90, $N_{\beta}$= 11, $\mu$= 0, $\rho_0$= 0.2).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/airports/airports_UW&#10;SIS($N_{rep}$= 10, $T_{max}$= 100, $T_{trans}$= 90, $N_{\beta}$= 11, $\mu$= 0.1, $\rho_0$= 0.2).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/airports/airports_UW&#10;SIS($N_{rep}$= 10, $T_{max}$= 100, $T_{trans}$= 90, $N_{\beta}$= 11, $\mu$= 0.2, $\rho_0$= 0.2).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/airports/airports_UW&#10;SIS($N_{rep}$= 10, $T_{max}$= 100, $T_{trans}$= 90, $N_{\beta}$= 11, $\mu$= 0.3, $\rho_0$= 0.2).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/airports/airports_UW&#10;SIS($N_{rep}$= 10, $T_{max}$= 100, $T_{trans}$= 90, $N_{\beta}$= 11, $\mu$= 0.5, $\rho_0$= 0.2).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/airports/airports_UW&#10;SIS($N_{rep}$= 10, $T_{max}$= 100, $T_{trans}$= 90, $N_{\beta}$= 11, $\mu$= 0.7, $\rho_0$= 0.05).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/airports/airports_UW&#10;SIS($N_{rep}$= 10, $T_{max}$= 100, $T_{trans}$= 90, $N_{\beta}$= 11, $\mu$= 0.7, $\rho_0$= 0.1).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/airports/airports_UW&#10;SIS($N_{rep}$= 10, $T_{max}$= 100, $T_{trans}$= 90, $N_{\beta}$= 11, $\mu$= 0.7, $\rho_0$= 0.2).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/airports/airports_UW&#10;SIS($N_{rep}$= 10, $T_{max}$= 100, $T_{trans}$= 90, $N_{\beta}$= 11, $\mu$= 0.8, $\rho_0$= 0.2).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/airports/airports_UW&#10;SIS($N_{rep}$= 10, $T_{max}$= 100, $T_{trans}$= 90, $N_{\beta}$= 11, $\mu$= 1, $\rho_0$= 0.2).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/airports/airports_UW_ini.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/barabasi_albert/barabasi_albert_[n=1000,m=1]&#10;SIS($N_{rep}$= 50, $T_{max}$= 1000, $T_{trans}$= 900, $N_{\beta}$= 51).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/barabasi_albert/barabasi_albert_[n=1000,m=1]_ini.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/barabasi_albert/barabasi_albert_[n=500,m=1]&#10;SIS($N_{rep}$= 50, $T_{max}$= 1000, $T_{trans}$= 900, $N_{\beta}$= 51).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/barabasi_albert/barabasi_albert_[n=500,m=1]_ini.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/barabasi_albert/barabasi_albert_[n=500,m=2]&#10;SIS($N_{rep}$= 50, $T_{max}$= 1000, $T_{trans}$= 900, $N_{\beta}$= 51).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/barabasi_albert/barabasi_albert_[n=500,m=2]_ini.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/barabasi_albert/barabasi_albert_[n=500,m=4]&#10;SIS($N_{rep}$= 50, $T_{max}$= 1000, $T_{trans}$= 900, $N_{\beta}$= 51).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/barabasi_albert/barabasi_albert_[n=500,m=4]_ini.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/erdos_renyi/erdos_renyi_[n=50,p=0.1]&#10;SIS($N_{rep}$= 100, $T_{max}$= 1000, $T_{trans}$= 900, $N_{\beta}$= 101).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/erdos_renyi/erdos_renyi_[n=50,p=0.1]_ini.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/erdos_renyi/erdos_renyi_[n=500,p=0.05]&#10;SIS($N_{rep}$= 50, $T_{max}$= 1000, $T_{trans}$= 900, $N_{\beta}$= 51).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/erdos_renyi/erdos_renyi_[n=500,p=0.05]_ini.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/erdos_renyi/erdos_renyi_[n=500,p=0.1]&#10;SIS($N_{rep}$= 50, $T_{max}$= 1000, $T_{trans}$= 900, $N_{\beta}$= 51).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/erdos_renyi/erdos_renyi_[n=500,p=0.1]_ini.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/erdos_renyi/terminal_log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/terminal_log_cpp (20170607)" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/terminal_log_cpp (20170607-2 full)" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/terminal_log_cpp (20170607-3 airports)" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_backup/terminal_log_python  (20170607)" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/python/main.py" afterPath="$PROJECT_DIR$/code/python/main.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,11 +76,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/python/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+            <state relative-caret-position="341">
+              <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="59" selection-end-column="33" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
                 <element signature="e#377#828#0" expanded="false" />
@@ -59,29 +91,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="utils_parallel_exe.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/python/utils_parallel_exe.py">
+      <file leaf-file-name="utils_latex.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/code/python/utils_latex.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="198">
+              <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="monte_carlo.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/python/monte_carlo.py">
+      <file leaf-file-name="utils_files.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/python/utils_files.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-                <element signature="e#802#950#0" expanded="false" />
-                <element signature="e#1000#1296#0" expanded="false" />
-                <element signature="e#1380#2807#0" expanded="false" />
-                <element signature="e#2868#3775#0" expanded="false" />
-                <element signature="e#3876#6008#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="-749">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -102,6 +129,8 @@
       <find>neig</find>
       <find>pt_before_avg</find>
       <find>rep=</find>
+      <find>sett</find>
+      <find>open</find>
     </findStrings>
     <replaceStrings>
       <replace>num_infected_by_step</replace>
@@ -122,6 +151,7 @@
         <option value="$PROJECT_DIR$/code/python/monte_carlo.py" />
         <option value="$PROJECT_DIR$/code/python/utils_parallel_exe.py" />
         <option value="$PROJECT_DIR$/code/python/main.py" />
+        <option value="$PROJECT_DIR$/code/python/utils_latex.py" />
       </list>
     </option>
   </component>
@@ -147,6 +177,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -211,8 +243,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -250,6 +280,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Activity_4" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/python/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="utils_latex" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code/python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Activity_4" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/python/utils_latex.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -336,12 +384,14 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Python.main" />
+      <item index="1" class="java.lang.String" itemvalue="Python.utils_latex" />
     </list>
     <recent_temporary>
-      <list size="1">
+      <list size="2">
         <item index="0" class="java.lang.String" itemvalue="Python.main" />
+        <item index="1" class="java.lang.String" itemvalue="Python.utils_latex" />
       </list>
     </recent_temporary>
   </component>
@@ -372,11 +422,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1922" height="1092" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21205598" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2217438" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2286652" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2286652" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1598493" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -423,13 +474,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/code/python/utils_networks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2295">
-          <caret line="145" column="14" lean-forward="false" selection-start-line="145" selection-start-column="14" selection-end-line="145" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code/python/monte_carlo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -739,13 +783,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/python/utils_files.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code/python/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -799,7 +836,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1126">
           <caret line="380" column="4" lean-forward="false" selection-start-line="380" selection-start-column="4" selection-end-line="380" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -814,7 +850,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="4866" column="8" lean-forward="false" selection-start-line="4866" selection-start-column="8" selection-end-line="4866" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -822,7 +857,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-602">
           <caret line="1" column="8" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -830,9 +864,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="6" column="47" lean-forward="false" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -840,22 +871,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/python/monte_carlo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-            <element signature="e#802#950#0" expanded="false" />
-            <element signature="e#1000#1296#0" expanded="false" />
-            <element signature="e#1380#2807#0" expanded="false" />
-            <element signature="e#2868#3775#0" expanded="false" />
-            <element signature="e#3876#6008#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -867,15 +882,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/code/python/monte_carlo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#802#950#0" expanded="false" />
+            <element signature="e#1000#1296#0" expanded="false" />
+            <element signature="e#1380#2807#0" expanded="false" />
+            <element signature="e#2868#3775#0" expanded="false" />
+            <element signature="e#3876#6008#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/code/python/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+        <state relative-caret-position="341">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="59" selection-end-column="33" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
             <element signature="e#377#828#0" expanded="false" />
             <element signature="e#864#1717#0" expanded="false" />
             <element signature="e#1756#2412#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/python/utils_files.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-749">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/python/utils_latex.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>

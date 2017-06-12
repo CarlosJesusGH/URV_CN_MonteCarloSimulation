@@ -1,0 +1,65 @@
+% Atom auto build latex -> Ctrl+Alt+B
+% Atom check spelling Ctrl+:
+% To use latex python scripts: cd ~/Dropbox/GeekFiles/Latex/ && source ~/Coding/venv/bin/activate
+
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{float}
+\usepackage[pdftex]{graphicx}
+\usepackage{url}
+\usepackage{listings}               % Code type bash
+\usepackage{subfig}                 % Images in a row
+\usepackage{hyperref}               % use links in the table of contents
+\hypersetup{
+    colorlinks,
+    citecolor=green,
+    filecolor=yellow,
+    linkcolor=blue,
+    urlcolor=red
+}
+
+\title{SUBJECT - TITLE \\ \bigskip SUBTITLE}
+\author{\\ Carlos García}
+\date{Month Year}
+
+\begin{document}
+\maketitle \newpage \tableofcontents \newpage
+% ------------------------------------------------------------------------------
+\section{}
+% ------------------------------------------------------------------------------
+\section{}
+% ------------------------------------------------------------------------------
+\section{}
+% ------------------------------------------------------------------------------
+\section{}
+% ------------------------------------------------------------------------------
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{{{"/home/cj/Downloads/sample-image"}}} %not use extension
+  \caption{Caption \cite{alias}}
+  % \label{Fig:if_necessary}
+\end{figure}
+% ---------------------
+\begin{description}
+  \item[desc1:] hello d1
+  \item[desc2:] hello d2
+  \item[desc3:] hello d3
+\end{description}
+\begin{enumerate}
+  \item enum 1
+  \item enum 2
+  \item enum 3
+\end{enumerate}
+\begin{itemize}
+  \item item 1
+  \item item 2
+  \item item 3 
+\end{itemize}
+% ------------------------------------------------------------------------------
+\newpage
+\bibliographystyle{unsrt}   %unsrt by appearance
+% Create also a file in this folder called "references.bib" and can paste the latex info as Wikipedia use them in "Cite this page" section.
+\bibliography{references}
+% ------------------------------------------------------------------------------
+\end{thebibliography}
+\end{document}
