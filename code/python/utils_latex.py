@@ -7,13 +7,26 @@ def build_latex(input_dir, output_path):
     for subdir, dirs, files in os.walk(input_dir):
         last_subdir = ""
         for file in sorted(files):
+            # Rename in case of necessary
+            # new_name = file.replace("\n","").replace("\\","")
+            # print(file); print("    " + new_name)
+            # os.rename(subdir + "/" + file, subdir + "/" + new_name)
+
             if "terminal_logs" not in subdir:   # not include this sub directory
                 if subdir != last_subdir:
                     # Add new section to latex
                     subdir_name = subdir[subdir.rfind("/") + 1:]
                     print(subdir_name)
+                    add_new_page()
                     add_new_section(subdir_name)
                     last_subdir = subdir
+
+                if not file.endswith("_ini.png"):
+                    if "airports" not in file:
+                        net_name = file[:file.find("SIS")]
+                        add_new_subsection(net_name)
+                        add_image("../../output_complete/" + subdir_name + "/" + net_name + "_ini.png")
+                    add_image("../../output_complete/" + subdir_name + "/" + file)
 
                 print("    " + file.replace("\n", " - "))
 
@@ -24,10 +37,10 @@ def add_image(image_path, caption="", label=""):
 
     image_template = '\t\\begin{figure}[H]\n' \
                      '\t\t\centering\n' \
-                     '\t\t\includegraphics[width=1 \\textwidth]{\"/home/cj/Dropbox/Personal/Study/MasterURV/2nd Semester/' \
-                     'CN/Activity 1' + image_path.replace('..', '').replace('.png','') + '\"}\n' \
-                     '\t\t\caption{' + caption + '}\n' \
-                     '\t\t\label{' + label + '}\n' \
+                     '\t\t\includegraphics[width=1 \\textwidth]{{{\"' \
+                     + image_path.replace('.png','') + '\"}}}\n' \
+                     '\t\t%\caption{' + caption + '}\n' \
+                     '\t\t%\label{' + label + '}\n' \
                      '\t\end{figure}'
     file.write(image_template + "\n\n")
     file.close()
@@ -35,7 +48,6 @@ def add_image(image_path, caption="", label=""):
 def create_or_open_file():
     if not os.path.exists(latex_output_path):
         file = open(latex_output_path, 'w+')
-        file.write("ini\n")
     else:
         file = open(latex_output_path, 'a')
     return file

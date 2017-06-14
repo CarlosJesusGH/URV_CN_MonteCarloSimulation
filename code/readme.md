@@ -10,7 +10,7 @@
         *matplot
 
     
-#C++ - igraph
+#C++ - igraph (not used at the end)
   download and install:
     wget http://igraph.org/nightly/get/c/igraph-0.7.1.tar.gz
     tar -xvzf igraph-0.7.1.tar.gz

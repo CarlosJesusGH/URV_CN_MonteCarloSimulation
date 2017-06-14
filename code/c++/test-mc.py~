@@ -1,7 +1,0 @@
-import monte_carlo_cpp
-
-#print("add="); print(monte_carlo_cpp.add(5,3))
-#print("random_number="); print(monte_carlo_cpp.random_number())
-print("monte carlo=")
-print(monte_carlo_cpp.simulate(1))
-

@@ -1,0 +1,257 @@
+PWD /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex
+INPUT /etc/texmf/web2c/texmf.cnf
+INPUT /usr/share/texmf/web2c/texmf.cnf
+INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
+INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/report.tex
+OUTPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/report.log
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
+INPUT /usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/report.aux
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/report.aux
+OUTPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/report.aux
+INPUT /usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+INPUT /usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/report.out
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/report.out
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/report.out
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/report.out
+OUTPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/report.pdf
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/report.out
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/report.out
+OUTPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/report.out
+INPUT /usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
+INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/report.toc
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/report.toc
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+OUTPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/report.toc
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/../../output_complete/airports/airports_UW_ini.png
+INPUT ../../output_complete/airports/airports_UW_ini.png
+INPUT ../../output_complete/airports/airports_UW_ini.png
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/../../output_complete/airports/airports_UW SIS($N_{rep}$= 10, $T_{max}$= 100, $T_{trans}$= 90, $N_{beta}$= 11, $mu$= 0, $rho_0$= 0.2).png
+INPUT ../../output_complete/airports/airports_UW SIS($N_{rep}$= 10, $T_{max}$= 100, $T_{trans}$= 90, $N_{beta}$= 11, $mu$= 0, $rho_0$= 0.2).png
+INPUT ../../output_complete/airports/airports_UW SIS($N_{rep}$= 10, $T_{max}$= 100, $T_{trans}$= 90, $N_{beta}$= 11, $mu$= 0, $rho_0$= 0.2).png
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/../../output_complete/airports/airports_UWSIS($N_{rep}$= 10, $T_{max}$= 100, $T_{trans}$= 90, $N_{beta}$= 11, $mu$= 0.1, $rho_0$= 0.2).png
+INPUT ../../output_complete/airports/airports_UWSIS($N_{rep}$= 10, $T_{max}$= 100, $T_{trans}$= 90, $N_{beta}$= 11, $mu$= 0.1, $rho_0$= 0.2).png
+INPUT ../../output_complete/airports/airports_UWSIS($N_{rep}$= 10, $T_{max}$= 100, $T_{trans}$= 90, $N_{beta}$= 11, $mu$= 0.1, $rho_0$= 0.2).png
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/../../output_complete/airports/airports_UWSIS($N_{rep}$= 10, $T_{max}$= 100, $T_{trans}$= 90, $N_{beta}$= 11, $mu$= 0.2, $rho_0$= 0.2).png
+INPUT ../../output_complete/airports/airports_UWSIS($N_{rep}$= 10, $T_{max}$= 100, $T_{trans}$= 90, $N_{beta}$= 11, $mu$= 0.2, $rho_0$= 0.2).png
+INPUT ../../output_complete/airports/airports_UWSIS($N_{rep}$= 10, $T_{max}$= 100, $T_{trans}$= 90, $N_{beta}$= 11, $mu$= 0.2, $rho_0$= 0.2).png
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/../../output_complete/airports/airports_UWSIS($N_{rep}$= 10, $T_{max}$= 100, $T_{trans}$= 90, $N_{beta}$= 11, $mu$= 0.3, $rho_0$= 0.2).png
+INPUT ../../output_complete/airports/airports_UWSIS($N_{rep}$= 10, $T_{max}$= 100, $T_{trans}$= 90, $N_{beta}$= 11, $mu$= 0.3, $rho_0$= 0.2).png
+INPUT ../../output_complete/airports/airports_UWSIS($N_{rep}$= 10, $T_{max}$= 100, $T_{trans}$= 90, $N_{beta}$= 11, $mu$= 0.3, $rho_0$= 0.2).png
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/../../output_complete/airports/airports_UWSIS($N_{rep}$= 10, $T_{max}$= 100, $T_{trans}$= 90, $N_{beta}$= 11, $mu$= 0.5, $rho_0$= 0.2).png
+INPUT ../../output_complete/airports/airports_UWSIS($N_{rep}$= 10, $T_{max}$= 100, $T_{trans}$= 90, $N_{beta}$= 11, $mu$= 0.5, $rho_0$= 0.2).png
+INPUT ../../output_complete/airports/airports_UWSIS($N_{rep}$= 10, $T_{max}$= 100, $T_{trans}$= 90, $N_{beta}$= 11, $mu$= 0.5, $rho_0$= 0.2).png
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/../../output_complete/airports/airports_UWSIS($N_{rep}$= 10, $T_{max}$= 100, $T_{trans}$= 90, $N_{beta}$= 11, $mu$= 0.7, $rho_0$= 0.05).png
+INPUT ../../output_complete/airports/airports_UWSIS($N_{rep}$= 10, $T_{max}$= 100, $T_{trans}$= 90, $N_{beta}$= 11, $mu$= 0.7, $rho_0$= 0.05).png
+INPUT ../../output_complete/airports/airports_UWSIS($N_{rep}$= 10, $T_{max}$= 100, $T_{trans}$= 90, $N_{beta}$= 11, $mu$= 0.7, $rho_0$= 0.05).png
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/../../output_complete/airports/airports_UWSIS($N_{rep}$= 10, $T_{max}$= 100, $T_{trans}$= 90, $N_{beta}$= 11, $mu$= 0.7, $rho_0$= 0.1).png
+INPUT ../../output_complete/airports/airports_UWSIS($N_{rep}$= 10, $T_{max}$= 100, $T_{trans}$= 90, $N_{beta}$= 11, $mu$= 0.7, $rho_0$= 0.1).png
+INPUT ../../output_complete/airports/airports_UWSIS($N_{rep}$= 10, $T_{max}$= 100, $T_{trans}$= 90, $N_{beta}$= 11, $mu$= 0.7, $rho_0$= 0.1).png
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/../../output_complete/airports/airports_UWSIS($N_{rep}$= 10, $T_{max}$= 100, $T_{trans}$= 90, $N_{beta}$= 11, $mu$= 0.7, $rho_0$= 0.2).png
+INPUT ../../output_complete/airports/airports_UWSIS($N_{rep}$= 10, $T_{max}$= 100, $T_{trans}$= 90, $N_{beta}$= 11, $mu$= 0.7, $rho_0$= 0.2).png
+INPUT ../../output_complete/airports/airports_UWSIS($N_{rep}$= 10, $T_{max}$= 100, $T_{trans}$= 90, $N_{beta}$= 11, $mu$= 0.7, $rho_0$= 0.2).png
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/../../output_complete/airports/airports_UWSIS($N_{rep}$= 10, $T_{max}$= 100, $T_{trans}$= 90, $N_{beta}$= 11, $mu$= 0.8, $rho_0$= 0.2).png
+INPUT ../../output_complete/airports/airports_UWSIS($N_{rep}$= 10, $T_{max}$= 100, $T_{trans}$= 90, $N_{beta}$= 11, $mu$= 0.8, $rho_0$= 0.2).png
+INPUT ../../output_complete/airports/airports_UWSIS($N_{rep}$= 10, $T_{max}$= 100, $T_{trans}$= 90, $N_{beta}$= 11, $mu$= 0.8, $rho_0$= 0.2).png
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/../../output_complete/airports/airports_UWSIS($N_{rep}$= 10, $T_{max}$= 100, $T_{trans}$= 90, $N_{beta}$= 11, $mu$= 1, $rho_0$= 0.2).png
+INPUT ../../output_complete/airports/airports_UWSIS($N_{rep}$= 10, $T_{max}$= 100, $T_{trans}$= 90, $N_{beta}$= 11, $mu$= 1, $rho_0$= 0.2).png
+INPUT ../../output_complete/airports/airports_UWSIS($N_{rep}$= 10, $T_{max}$= 100, $T_{trans}$= 90, $N_{beta}$= 11, $mu$= 1, $rho_0$= 0.2).png
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/../../output_complete/erdos_renyi/erdos_renyi_[n=50,p=0.1]_ini.png
+INPUT ../../output_complete/erdos_renyi/erdos_renyi_[n=50,p=0.1]_ini.png
+INPUT ../../output_complete/erdos_renyi/erdos_renyi_[n=50,p=0.1]_ini.png
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/../../output_complete/erdos_renyi/erdos_renyi_[n=50,p=0.1]SIS($N_{rep}$= 100, $T_{max}$= 1000, $T_{trans}$= 900, $N_{beta}$= 101).png
+INPUT ../../output_complete/erdos_renyi/erdos_renyi_[n=50,p=0.1]SIS($N_{rep}$= 100, $T_{max}$= 1000, $T_{trans}$= 900, $N_{beta}$= 101).png
+INPUT ../../output_complete/erdos_renyi/erdos_renyi_[n=50,p=0.1]SIS($N_{rep}$= 100, $T_{max}$= 1000, $T_{trans}$= 900, $N_{beta}$= 101).png
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/../../output_complete/erdos_renyi/erdos_renyi_[n=500,p=0.05]_ini.png
+INPUT ../../output_complete/erdos_renyi/erdos_renyi_[n=500,p=0.05]_ini.png
+INPUT ../../output_complete/erdos_renyi/erdos_renyi_[n=500,p=0.05]_ini.png
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/../../output_complete/erdos_renyi/erdos_renyi_[n=500,p=0.05]SIS($N_{rep}$= 50, $T_{max}$= 1000, $T_{trans}$= 900, $N_{beta}$= 51).png
+INPUT ../../output_complete/erdos_renyi/erdos_renyi_[n=500,p=0.05]SIS($N_{rep}$= 50, $T_{max}$= 1000, $T_{trans}$= 900, $N_{beta}$= 51).png
+INPUT ../../output_complete/erdos_renyi/erdos_renyi_[n=500,p=0.05]SIS($N_{rep}$= 50, $T_{max}$= 1000, $T_{trans}$= 900, $N_{beta}$= 51).png
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/../../output_complete/erdos_renyi/erdos_renyi_[n=500,p=0.1]_ini.png
+INPUT ../../output_complete/erdos_renyi/erdos_renyi_[n=500,p=0.1]_ini.png
+INPUT ../../output_complete/erdos_renyi/erdos_renyi_[n=500,p=0.1]_ini.png
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/../../output_complete/erdos_renyi/erdos_renyi_[n=500,p=0.1]SIS($N_{rep}$= 50, $T_{max}$= 1000, $T_{trans}$= 900, $N_{beta}$= 51).png
+INPUT ../../output_complete/erdos_renyi/erdos_renyi_[n=500,p=0.1]SIS($N_{rep}$= 50, $T_{max}$= 1000, $T_{trans}$= 900, $N_{beta}$= 51).png
+INPUT ../../output_complete/erdos_renyi/erdos_renyi_[n=500,p=0.1]SIS($N_{rep}$= 50, $T_{max}$= 1000, $T_{trans}$= 900, $N_{beta}$= 51).png
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/../../output_complete/watts_strogatz/watts_strogatz_[n=500,k=4,p=0.5]_ini.png
+INPUT ../../output_complete/watts_strogatz/watts_strogatz_[n=500,k=4,p=0.5]_ini.png
+INPUT ../../output_complete/watts_strogatz/watts_strogatz_[n=500,k=4,p=0.5]_ini.png
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/../../output_complete/watts_strogatz/watts_strogatz_[n=500,k=4,p=0.5]SIS($N_{rep}$= 50, $T_{max}$= 1000, $T_{trans}$= 900, $N_{beta}$= 51).png
+INPUT ../../output_complete/watts_strogatz/watts_strogatz_[n=500,k=4,p=0.5]SIS($N_{rep}$= 50, $T_{max}$= 1000, $T_{trans}$= 900, $N_{beta}$= 51).png
+INPUT ../../output_complete/watts_strogatz/watts_strogatz_[n=500,k=4,p=0.5]SIS($N_{rep}$= 50, $T_{max}$= 1000, $T_{trans}$= 900, $N_{beta}$= 51).png
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/../../output_complete/watts_strogatz/watts_strogatz_[n=500,k=4,p=0.9]_ini.png
+INPUT ../../output_complete/watts_strogatz/watts_strogatz_[n=500,k=4,p=0.9]_ini.png
+INPUT ../../output_complete/watts_strogatz/watts_strogatz_[n=500,k=4,p=0.9]_ini.png
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/../../output_complete/watts_strogatz/watts_strogatz_[n=500,k=4,p=0.9]SIS($N_{rep}$= 50, $T_{max}$= 1000, $T_{trans}$= 900, $N_{beta}$= 51).png
+INPUT ../../output_complete/watts_strogatz/watts_strogatz_[n=500,k=4,p=0.9]SIS($N_{rep}$= 50, $T_{max}$= 1000, $T_{trans}$= 900, $N_{beta}$= 51).png
+INPUT ../../output_complete/watts_strogatz/watts_strogatz_[n=500,k=4,p=0.9]SIS($N_{rep}$= 50, $T_{max}$= 1000, $T_{trans}$= 900, $N_{beta}$= 51).png
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/../../output_complete/barabasi_albert/barabasi_albert_[n=500,m=1]_ini.png
+INPUT ../../output_complete/barabasi_albert/barabasi_albert_[n=500,m=1]_ini.png
+INPUT ../../output_complete/barabasi_albert/barabasi_albert_[n=500,m=1]_ini.png
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/../../output_complete/barabasi_albert/barabasi_albert_[n=500,m=1]SIS($N_{rep}$= 50, $T_{max}$= 1000, $T_{trans}$= 900, $N_{beta}$= 51).png
+INPUT ../../output_complete/barabasi_albert/barabasi_albert_[n=500,m=1]SIS($N_{rep}$= 50, $T_{max}$= 1000, $T_{trans}$= 900, $N_{beta}$= 51).png
+INPUT ../../output_complete/barabasi_albert/barabasi_albert_[n=500,m=1]SIS($N_{rep}$= 50, $T_{max}$= 1000, $T_{trans}$= 900, $N_{beta}$= 51).png
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/../../output_complete/barabasi_albert/barabasi_albert_[n=500,m=2]_ini.png
+INPUT ../../output_complete/barabasi_albert/barabasi_albert_[n=500,m=2]_ini.png
+INPUT ../../output_complete/barabasi_albert/barabasi_albert_[n=500,m=2]_ini.png
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/../../output_complete/barabasi_albert/barabasi_albert_[n=500,m=2]SIS($N_{rep}$= 50, $T_{max}$= 1000, $T_{trans}$= 900, $N_{beta}$= 51).png
+INPUT ../../output_complete/barabasi_albert/barabasi_albert_[n=500,m=2]SIS($N_{rep}$= 50, $T_{max}$= 1000, $T_{trans}$= 900, $N_{beta}$= 51).png
+INPUT ../../output_complete/barabasi_albert/barabasi_albert_[n=500,m=2]SIS($N_{rep}$= 50, $T_{max}$= 1000, $T_{trans}$= 900, $N_{beta}$= 51).png
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/../../output_complete/barabasi_albert/barabasi_albert_[n=500,m=4]_ini.png
+INPUT ../../output_complete/barabasi_albert/barabasi_albert_[n=500,m=4]_ini.png
+INPUT ../../output_complete/barabasi_albert/barabasi_albert_[n=500,m=4]_ini.png
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/../../output_complete/barabasi_albert/barabasi_albert_[n=500,m=4]SIS($N_{rep}$= 50, $T_{max}$= 1000, $T_{trans}$= 900, $N_{beta}$= 51).png
+INPUT ../../output_complete/barabasi_albert/barabasi_albert_[n=500,m=4]SIS($N_{rep}$= 50, $T_{max}$= 1000, $T_{trans}$= 900, $N_{beta}$= 51).png
+INPUT ../../output_complete/barabasi_albert/barabasi_albert_[n=500,m=4]SIS($N_{rep}$= 50, $T_{max}$= 1000, $T_{trans}$= 900, $N_{beta}$= 51).png
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/../../output_complete/barabasi_albert/barabasi_albert_[n=1000,m=1]_ini.png
+INPUT ../../output_complete/barabasi_albert/barabasi_albert_[n=1000,m=1]_ini.png
+INPUT ../../output_complete/barabasi_albert/barabasi_albert_[n=1000,m=1]_ini.png
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/../../output_complete/barabasi_albert/barabasi_albert_[n=1000,m=1]SIS($N_{rep}$= 50, $T_{max}$= 1000, $T_{trans}$= 900, $N_{beta}$= 51).png
+INPUT ../../output_complete/barabasi_albert/barabasi_albert_[n=1000,m=1]SIS($N_{rep}$= 50, $T_{max}$= 1000, $T_{trans}$= 900, $N_{beta}$= 51).png
+INPUT ../../output_complete/barabasi_albert/barabasi_albert_[n=1000,m=1]SIS($N_{rep}$= 50, $T_{max}$= 1000, $T_{trans}$= 900, $N_{beta}$= 51).png
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/../../output_complete/models/256_4_4_2_15_18_p_ini.png
+INPUT ../../output_complete/models/256_4_4_2_15_18_p_ini.png
+INPUT ../../output_complete/models/256_4_4_2_15_18_p_ini.png
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/../../output_complete/models/256_4_4_2_15_18_pSIS($N_{rep}$= 50, $T_{max}$= 1000, $T_{trans}$= 900, $N_{beta}$= 51).png
+INPUT ../../output_complete/models/256_4_4_2_15_18_pSIS($N_{rep}$= 50, $T_{max}$= 1000, $T_{trans}$= 900, $N_{beta}$= 51).png
+INPUT ../../output_complete/models/256_4_4_2_15_18_pSIS($N_{rep}$= 50, $T_{max}$= 1000, $T_{trans}$= 900, $N_{beta}$= 51).png
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/../../output_complete/models/256_4_4_4_13_18_p_ini.png
+INPUT ../../output_complete/models/256_4_4_4_13_18_p_ini.png
+INPUT ../../output_complete/models/256_4_4_4_13_18_p_ini.png
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/../../output_complete/models/256_4_4_4_13_18_pSIS($N_{rep}$= 50, $T_{max}$= 1000, $T_{trans}$= 900, $N_{beta}$= 51).png
+INPUT ../../output_complete/models/256_4_4_4_13_18_pSIS($N_{rep}$= 50, $T_{max}$= 1000, $T_{trans}$= 900, $N_{beta}$= 51).png
+INPUT ../../output_complete/models/256_4_4_4_13_18_pSIS($N_{rep}$= 50, $T_{max}$= 1000, $T_{trans}$= 900, $N_{beta}$= 51).png
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/../../output_complete/models/rb125_ini.png
+INPUT ../../output_complete/models/rb125_ini.png
+INPUT ../../output_complete/models/rb125_ini.png
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/../../output_complete/models/rb125SIS($N_{rep}$= 50, $T_{max}$= 1000, $T_{trans}$= 900, $N_{beta}$= 51).png
+INPUT ../../output_complete/models/rb125SIS($N_{rep}$= 50, $T_{max}$= 1000, $T_{trans}$= 900, $N_{beta}$= 51).png
+INPUT ../../output_complete/models/rb125SIS($N_{rep}$= 50, $T_{max}$= 1000, $T_{trans}$= 900, $N_{beta}$= 51).png
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/../../output_complete/reals/cat_cortex_sim_ini.png
+INPUT ../../output_complete/reals/cat_cortex_sim_ini.png
+INPUT ../../output_complete/reals/cat_cortex_sim_ini.png
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/../../output_complete/reals/cat_cortex_simSIS($N_{rep}$= 50, $T_{max}$= 1000, $T_{trans}$= 900, $N_{beta}$= 51).png
+INPUT ../../output_complete/reals/cat_cortex_simSIS($N_{rep}$= 50, $T_{max}$= 1000, $T_{trans}$= 900, $N_{beta}$= 51).png
+INPUT ../../output_complete/reals/cat_cortex_simSIS($N_{rep}$= 50, $T_{max}$= 1000, $T_{trans}$= 900, $N_{beta}$= 51).png
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/../../output_complete/reals/dolphins_ini.png
+INPUT ../../output_complete/reals/dolphins_ini.png
+INPUT ../../output_complete/reals/dolphins_ini.png
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/../../output_complete/reals/dolphinsSIS($N_{rep}$= 50, $T_{max}$= 1000, $T_{trans}$= 900, $N_{beta}$= 51).png
+INPUT ../../output_complete/reals/dolphinsSIS($N_{rep}$= 50, $T_{max}$= 1000, $T_{trans}$= 900, $N_{beta}$= 51).png
+INPUT ../../output_complete/reals/dolphinsSIS($N_{rep}$= 50, $T_{max}$= 1000, $T_{trans}$= 900, $N_{beta}$= 51).png
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/../../output_complete/reals/football_ini.png
+INPUT ../../output_complete/reals/football_ini.png
+INPUT ../../output_complete/reals/football_ini.png
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/../../output_complete/reals/footballSIS($N_{rep}$= 50, $T_{max}$= 1000, $T_{trans}$= 900, $N_{beta}$= 51).png
+INPUT ../../output_complete/reals/footballSIS($N_{rep}$= 50, $T_{max}$= 1000, $T_{trans}$= 900, $N_{beta}$= 51).png
+INPUT ../../output_complete/reals/footballSIS($N_{rep}$= 50, $T_{max}$= 1000, $T_{trans}$= 900, $N_{beta}$= 51).png
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/../../output_complete/reals/zachary_unwh_ini.png
+INPUT ../../output_complete/reals/zachary_unwh_ini.png
+INPUT ../../output_complete/reals/zachary_unwh_ini.png
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/../../output_complete/reals/zachary_unwhSIS($N_{rep}$= 50, $T_{max}$= 1000, $T_{trans}$= 900, $N_{beta}$= 51).png
+INPUT ../../output_complete/reals/zachary_unwhSIS($N_{rep}$= 50, $T_{max}$= 1000, $T_{trans}$= 900, $N_{beta}$= 51).png
+INPUT ../../output_complete/reals/zachary_unwhSIS($N_{rep}$= 50, $T_{max}$= 1000, $T_{trans}$= 900, $N_{beta}$= 51).png
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/report.aux
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/report.out
+INPUT /home/cj/Dropbox/Personal/Study/MasterURV/2nd_Semester/CN/Activity_4/report/latex/report.out
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
