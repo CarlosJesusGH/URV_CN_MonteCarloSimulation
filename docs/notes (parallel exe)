@@ -1,5 +1,0 @@
-FROM: https://stackoverflow.com/questions/7207309/python-how-can-i-run-python-functions-in-parallel
-
-You could use threading or multiprocessing.
-
-Due to peculiarities of CPython, threading is unlikely to achieve true parallelism. For this reason, multiprocessing is generally a better bet.
