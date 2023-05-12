@@ -17,7 +17,7 @@ We are interested in the calculation of the fraction of infected nodes, ρ, in t
         *matplot
 
     
-# C++ - igraph (not used at the end)
+# C++ - igraph (not used)
   download and install:
     wget http://igraph.org/nightly/get/c/igraph-0.7.1.tar.gz
     tar -xvzf igraph-0.7.1.tar.gz
